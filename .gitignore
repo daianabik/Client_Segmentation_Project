@@ -70,3 +70,9 @@ dmypy.json
 
 # Kaggle folder
 kaggle/
+
+# Workspace
+client_segmentation_project.code-workspace
+
+# MACOS
+.DS_Store
