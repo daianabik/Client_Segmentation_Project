@@ -1,0 +1,1001 @@
+user_id,age,gender,location,income,interests,purchase_frequency,average_order_value,total_spending,product_category_preference,time_spent_on_site_minutes,pages_viewed,newsletter_subscription,login_recency,login_recency_encoded,activity_score
+#1,56,Male,Suburban,38037,Sports,7,18,2546,Books,584,38,True,medium,1,1.05
+#2,46,Female,Rural,103986,Technology,7,118,320,Electronics,432,40,False,medium,1,0.4375
+#3,32,Female,Suburban,101942,Sports,1,146,3766,Apparel,306,1,True,churn_risk,3,0.034482758620689655
+#4,60,Female,Suburban,71612,Fashion,3,163,4377,Apparel,527,29,False,low,2,0.15789473684210525
+#5,25,Male,Suburban,49725,Travel,5,141,4502,Health & Beauty,53,10,True,high_activity,0,1.05
+#6,38,Male,Suburban,25926,Travel,8,25,2669,Books,520,28,False,low,2,0.34782608695652173
+#7,56,Male,Urban,124555,Fashion,7,152,1113,Home & Kitchen,330,31,True,medium,1,0.5833333333333334
+#8,36,Male,Urban,29496,Technology,7,108,2151,Apparel,558,19,True,churn_risk,3,0.25925925925925924
+#9,40,Male,Rural,76447,Travel,6,130,4085,Books,325,3,True,churn_risk,3,0.23076923076923078
+#10,28,Male,Urban,121604,Food,8,61,4999,Electronics,114,36,False,medium,1,0.5714285714285714
+#11,28,Male,Urban,49806,Travel,1,78,4410,Health & Beauty,147,43,True,high_activity,0,0.2
+#12,41,Male,Rural,108199,Food,2,14,3119,Electronics,166,15,False,low,2,0.08695652173913043
+#13,53,Female,Rural,61321,Fashion,9,29,3781,Apparel,379,33,True,medium,1,1.05
+#14,57,Female,Rural,142041,Fashion,7,88,1543,Apparel,139,41,True,churn_risk,3,0.23333333333333334
+#15,41,Male,Urban,122031,Travel,5,155,4296,Electronics,299,43,False,medium,1,0.4166666666666667
+#16,20,Male,Urban,85095,Sports,9,120,3110,Apparel,276,45,True,low,2,0.391304347826087
+#17,39,Female,Rural,42656,Food,8,11,672,Books,178,26,False,churn_risk,3,0.32
+#18,19,Male,Suburban,75147,Technology,9,102,1432,Apparel,354,16,False,high_activity,0,1.05
+#19,41,Male,Rural,111396,Travel,3,22,4853,Health & Beauty,154,36,False,churn_risk,3,0.10344827586206896
+#20,61,Male,Suburban,69666,Technology,7,13,4102,Books,201,33,False,medium,1,0.4375
+#21,47,Female,Suburban,102368,Travel,9,179,3234,Home & Kitchen,115,20,True,high_activity,0,1.05
+#22,55,Female,Rural,58787,Sports,2,118,4186,Apparel,554,13,True,low,2,0.08333333333333333
+#23,19,Female,Rural,133767,Sports,2,83,325,Apparel,68,33,False,high_activity,0,0.5
+#24,38,Female,Rural,82946,Sports,7,198,4300,Health & Beauty,445,5,True,medium,1,0.4666666666666667
+#25,50,Female,Urban,41727,Sports,4,104,2097,Health & Beauty,445,37,True,medium,1,0.5714285714285714
+#26,29,Male,Suburban,128351,Fashion,2,114,871,Electronics,326,14,False,low,2,0.10526315789473684
+#27,39,Female,Urban,115081,Fashion,9,17,4624,Electronics,359,27,True,churn_risk,3,0.34615384615384615
+#28,61,Male,Urban,142721,Food,0,76,533,Electronics,145,23,False,high_activity,0,0.0
+#29,42,Male,Rural,130058,Technology,2,119,3199,Health & Beauty,275,14,True,medium,1,0.2857142857142857
+#30,44,Female,Urban,88056,Travel,8,18,2829,Electronics,509,40,True,medium,1,1.05
+#31,59,Female,Rural,23081,Travel,4,126,3507,Electronics,179,4,False,low,2,0.18181818181818182
+#32,45,Male,Suburban,54196,Fashion,9,20,3240,Home & Kitchen,477,39,True,medium,1,0.5294117647058824
+#33,33,Male,Rural,56735,Travel,1,108,965,Electronics,414,19,True,churn_risk,3,0.03333333333333333
+#34,32,Male,Urban,124749,Fashion,6,51,2893,Apparel,153,47,False,medium,1,1.0
+#35,64,Female,Urban,100102,Food,1,150,3011,Health & Beauty,104,4,True,low,2,0.05555555555555555
+#36,61,Female,Rural,99578,Technology,3,173,2515,Books,75,30,False,medium,1,0.2727272727272727
+#37,20,Female,Rural,45498,Food,6,129,350,Home & Kitchen,128,19,True,churn_risk,3,0.20689655172413793
+#38,54,Female,Urban,96865,Sports,3,150,3857,Health & Beauty,568,31,False,low,2,0.13636363636363635
+#39,24,Female,Suburban,51656,Sports,6,21,4756,Health & Beauty,345,31,False,low,2,0.3157894736842105
+#40,38,Male,Suburban,87695,Sports,6,46,1018,Apparel,531,9,False,medium,1,0.75
+#41,26,Female,Rural,57900,Food,0,83,1273,Electronics,159,13,False,high_activity,0,0.0
+#42,56,Male,Suburban,148392,Travel,5,82,3303,Apparel,538,14,False,medium,1,0.35714285714285715
+#43,35,Male,Urban,137235,Technology,8,61,532,Electronics,426,46,True,medium,1,0.5
+#44,21,Male,Rural,104899,Sports,1,139,935,Electronics,23,10,True,low,2,0.047619047619047616
+#45,42,Female,Urban,67701,Sports,2,65,2346,Health & Beauty,47,48,False,low,2,0.1
+#46,31,Female,Urban,128777,Sports,9,69,2362,Electronics,525,31,True,high_activity,0,1.05
+#47,26,Female,Suburban,39033,Technology,4,32,997,Home & Kitchen,144,37,False,high_activity,0,0.8
+#48,43,Male,Rural,143193,Sports,8,112,3732,Home & Kitchen,585,23,True,medium,1,1.05
+#49,19,Male,Rural,30805,Technology,3,49,4667,Home & Kitchen,589,27,True,high_activity,0,1.05
+#50,37,Male,Suburban,55851,Sports,0,73,3915,Health & Beauty,419,6,False,high_activity,0,0.0
+#51,45,Male,Urban,46832,Food,3,94,346,Apparel,85,26,False,medium,1,0.23076923076923078
+#52,64,Male,Urban,83437,Food,5,160,2529,Books,416,2,True,churn_risk,3,0.1724137931034483
+#53,24,Male,Urban,135725,Technology,4,166,1090,Electronics,482,45,True,churn_risk,3,0.14285714285714285
+#54,61,Female,Urban,33944,Food,0,188,3410,Books,456,13,False,churn_risk,3,0.0
+#55,25,Female,Rural,39873,Technology,3,98,1026,Apparel,297,19,True,medium,1,0.2727272727272727
+#56,64,Female,Rural,60372,Food,5,40,3538,Apparel,112,1,True,low,2,0.20833333333333334
+#57,52,Female,Suburban,109464,Food,9,187,2707,Health & Beauty,230,40,False,churn_risk,3,0.34615384615384615
+#58,31,Male,Suburban,35379,Technology,9,29,1174,Home & Kitchen,96,32,True,low,2,0.4090909090909091
+#59,34,Male,Rural,137322,Travel,3,192,4122,Home & Kitchen,378,22,False,churn_risk,3,0.1
+#60,53,Female,Rural,56751,Food,8,139,3899,Apparel,156,48,False,churn_risk,3,0.2962962962962963
+#61,57,Male,Urban,120082,Sports,4,162,4884,Health & Beauty,421,29,False,low,2,0.19047619047619047
+#62,21,Female,Urban,109822,Travel,7,22,3251,Health & Beauty,105,2,True,churn_risk,3,0.28
+#63,19,Female,Suburban,25110,Technology,8,131,3538,Electronics,330,40,True,churn_risk,3,0.3076923076923077
+#64,23,Female,Rural,74341,Travel,9,112,4673,Home & Kitchen,439,38,False,medium,1,0.6428571428571429
+#65,59,Male,Suburban,32087,Fashion,4,115,3591,Apparel,132,48,False,low,2,0.16666666666666666
+#66,21,Female,Rural,43762,Fashion,5,128,806,Books,382,11,True,medium,1,0.3333333333333333
+#67,46,Female,Urban,135812,Food,0,79,3164,Home & Kitchen,138,17,True,low,2,0.0
+#68,35,Female,Suburban,102617,Food,6,195,853,Electronics,270,43,True,medium,1,1.0
+#69,43,Male,Suburban,120483,Sports,3,108,687,Health & Beauty,550,8,False,high_activity,0,0.6
+#70,61,Male,Rural,29596,Travel,1,91,1434,Apparel,396,22,False,medium,1,0.06666666666666667
+#71,51,Female,Urban,123555,Fashion,4,84,1947,Home & Kitchen,557,4,True,medium,1,0.36363636363636365
+#72,27,Male,Suburban,127539,Food,2,127,4034,Books,464,11,True,low,2,0.1111111111111111
+#73,53,Male,Urban,38313,Travel,5,93,4026,Electronics,450,8,True,medium,1,0.45454545454545453
+#74,31,Male,Suburban,133175,Food,7,78,3417,Electronics,331,9,False,churn_risk,3,0.25925925925925924
+#75,48,Male,Urban,86549,Food,6,68,4120,Home & Kitchen,253,26,False,medium,1,0.75
+#76,32,Male,Rural,134914,Fashion,2,197,3255,Books,285,2,True,medium,1,0.11764705882352941
+#77,25,Male,Suburban,43705,Fashion,7,135,4402,Electronics,274,16,True,high_activity,0,1.05
+#78,31,Male,Suburban,87364,Food,1,120,2298,Apparel,20,31,False,low,2,0.05555555555555555
+#79,40,Male,Urban,93445,Technology,9,71,264,Electronics,239,6,False,low,2,0.4090909090909091
+#80,57,Male,Urban,123892,Food,8,153,2098,Books,270,21,True,churn_risk,3,0.26666666666666666
+#81,38,Male,Suburban,98645,Food,3,137,3157,Health & Beauty,418,26,True,medium,1,0.3
+#82,33,Female,Rural,22023,Sports,0,114,2184,Health & Beauty,310,19,True,medium,1,0.0
+#83,62,Female,Urban,139654,Sports,7,77,4528,Home & Kitchen,31,28,False,low,2,0.35
+#84,35,Male,Urban,79796,Sports,6,24,502,Books,104,8,True,medium,1,0.42857142857142855
+#85,64,Female,Urban,100073,Technology,4,192,513,Electronics,186,14,False,high_activity,0,1.0
+#86,41,Female,Suburban,112197,Technology,9,44,144,Electronics,128,24,False,medium,1,1.05
+#87,43,Male,Suburban,84429,Food,4,192,4257,Health & Beauty,210,48,True,low,2,0.17391304347826086
+#88,42,Male,Suburban,124195,Sports,6,23,2567,Health & Beauty,414,44,True,medium,1,0.6
+#89,62,Male,Suburban,81627,Technology,4,186,967,Apparel,281,37,False,low,2,0.17391304347826086
+#90,58,Female,Rural,53848,Fashion,7,111,118,Health & Beauty,253,26,True,medium,1,1.05
+#91,46,Female,Rural,57804,Food,5,109,464,Apparel,19,31,False,medium,1,0.45454545454545453
+#92,32,Male,Suburban,35379,Travel,4,16,3932,Electronics,136,32,True,low,2,0.16666666666666666
+#93,62,Male,Rural,79664,Food,8,39,679,Apparel,223,41,True,low,2,0.4444444444444444
+#94,18,Male,Urban,47766,Travel,1,58,645,Apparel,3,2,True,medium,1,0.07692307692307693
+#95,42,Female,Urban,129126,Sports,0,153,4250,Home & Kitchen,236,25,True,low,2,0.0
+#96,24,Female,Urban,88099,Travel,7,120,4973,Health & Beauty,465,44,False,medium,1,0.4117647058823529
+#97,26,Female,Suburban,56060,Sports,2,188,3139,Apparel,228,2,False,high_activity,0,0.5
+#98,41,Female,Urban,114733,Fashion,6,81,4237,Electronics,499,42,False,churn_risk,3,0.23076923076923078
+#99,18,Male,Rural,89122,Travel,9,89,4144,Books,521,1,True,low,2,0.391304347826087
+#100,61,Male,Suburban,36087,Food,7,92,4426,Apparel,139,36,False,medium,1,0.7
+#101,25,Male,Rural,68868,Sports,5,51,552,Health & Beauty,276,12,False,churn_risk,3,0.16666666666666666
+#102,41,Male,Urban,139119,Food,9,26,4061,Home & Kitchen,291,9,False,medium,1,0.5625
+#103,28,Female,Urban,43225,Technology,8,182,1481,Electronics,53,36,True,medium,1,1.05
+#104,34,Female,Urban,115286,Sports,6,16,1567,Home & Kitchen,110,41,False,low,2,0.25
+#105,25,Male,Suburban,26643,Travel,9,164,2838,Books,4,28,True,medium,1,0.6428571428571429
+#106,52,Male,Rural,113059,Sports,4,19,1316,Apparel,47,38,True,medium,1,0.26666666666666666
+#107,52,Female,Suburban,56727,Food,7,43,980,Apparel,94,33,False,low,2,0.3333333333333333
+#108,50,Male,Suburban,31005,Fashion,1,45,3914,Health & Beauty,560,42,True,medium,1,0.0625
+#109,22,Female,Urban,129079,Sports,6,162,3249,Apparel,213,46,False,medium,1,0.35294117647058826
+#110,59,Male,Suburban,85697,Travel,3,15,184,Electronics,436,22,False,low,2,0.125
+#111,56,Male,Suburban,36029,Technology,8,161,4244,Books,508,25,False,medium,1,0.5714285714285714
+#112,58,Male,Urban,135281,Fashion,0,155,1268,Home & Kitchen,205,18,False,low,2,0.0
+#113,45,Male,Suburban,34226,Technology,6,143,4264,Books,381,6,False,low,2,0.25
+#114,24,Male,Urban,83646,Sports,5,38,3229,Apparel,73,18,True,medium,1,0.5555555555555556
+#115,26,Male,Urban,80603,Food,7,135,3745,Home & Kitchen,516,16,False,low,2,0.3181818181818182
+#116,25,Male,Urban,48731,Food,4,162,2626,Health & Beauty,76,15,True,high_activity,0,1.05
+#117,29,Female,Urban,129458,Travel,0,192,2967,Books,77,48,False,medium,1,0.0
+#118,51,Female,Suburban,130384,Food,0,90,3616,Home & Kitchen,410,8,False,medium,1,0.0
+#119,50,Female,Urban,88926,Fashion,8,183,3467,Home & Kitchen,106,13,False,medium,1,0.6153846153846154
+#120,40,Female,Urban,25997,Food,9,161,2294,Home & Kitchen,551,43,True,low,2,0.47368421052631576
+#121,41,Female,Suburban,75506,Travel,5,84,3655,Electronics,476,7,True,low,2,0.21739130434782608
+#122,54,Male,Suburban,98229,Sports,9,35,545,Books,275,17,True,low,2,0.391304347826087
+#123,52,Male,Rural,69815,Sports,4,136,3726,Home & Kitchen,88,32,True,high_activity,0,1.05
+#124,61,Female,Suburban,62092,Food,0,124,4116,Books,77,22,False,low,2,0.0
+#125,57,Male,Suburban,82539,Technology,5,135,3975,Home & Kitchen,77,13,False,medium,1,0.4166666666666667
+#126,39,Female,Rural,86077,Sports,5,37,3437,Health & Beauty,442,47,True,medium,1,0.45454545454545453
+#127,44,Female,Suburban,41817,Food,2,140,361,Health & Beauty,540,23,True,low,2,0.1
+#128,52,Male,Suburban,57861,Travel,7,84,1948,Health & Beauty,245,29,True,medium,1,0.4666666666666667
+#129,18,Male,Suburban,33428,Food,0,175,4125,Apparel,578,22,False,churn_risk,3,0.0
+#130,52,Male,Suburban,63934,Sports,0,198,2366,Home & Kitchen,382,1,True,medium,1,0.0
+#131,54,Female,Rural,135555,Travel,5,87,191,Apparel,570,29,True,medium,1,0.3125
+#132,64,Male,Suburban,134367,Food,9,188,4322,Books,142,48,False,churn_risk,3,0.3103448275862069
+#133,31,Female,Suburban,30258,Fashion,0,99,4275,Apparel,368,5,True,low,2,0.0
+#134,20,Female,Rural,77775,Travel,5,185,3409,Books,84,35,False,high_activity,0,1.0
+#135,18,Female,Urban,101580,Fashion,0,30,1082,Books,143,10,False,high_activity,0,0.0
+#136,22,Male,Rural,114947,Technology,5,63,3543,Books,352,19,False,medium,1,0.5
+#137,43,Male,Urban,25469,Travel,2,193,2633,Apparel,545,37,False,medium,1,0.18181818181818182
+#138,31,Female,Rural,48854,Fashion,7,112,793,Home & Kitchen,152,7,False,churn_risk,3,0.2413793103448276
+#139,56,Male,Rural,26256,Sports,5,68,4220,Apparel,158,46,True,medium,1,0.4166666666666667
+#140,44,Male,Suburban,144086,Sports,0,81,255,Home & Kitchen,446,35,True,medium,1,0.0
+#141,26,Male,Urban,96256,Technology,4,188,3688,Home & Kitchen,303,45,False,medium,1,0.5
+#142,32,Female,Suburban,53937,Travel,7,29,1912,Books,450,13,False,low,2,0.2916666666666667
+#143,32,Female,Urban,119134,Travel,2,121,4214,Apparel,224,10,True,medium,1,0.125
+#144,43,Male,Rural,21651,Travel,5,68,1507,Home & Kitchen,43,2,True,low,2,0.21739130434782608
+#145,59,Female,Rural,70288,Technology,4,80,1316,Health & Beauty,264,6,False,low,2,0.2
+#146,30,Male,Urban,104730,Travel,5,146,1510,Home & Kitchen,3,8,True,low,2,0.21739130434782608
+#147,49,Male,Suburban,45051,Sports,9,118,3597,Health & Beauty,268,36,True,medium,1,0.5625
+#148,56,Male,Suburban,47386,Fashion,0,138,4472,Apparel,596,25,False,churn_risk,3,0.0
+#149,49,Male,Suburban,95054,Sports,6,166,4940,Apparel,16,44,True,churn_risk,3,0.24
+#150,21,Female,Suburban,131562,Sports,8,65,651,Apparel,334,47,True,medium,1,0.8888888888888888
+#151,47,Female,Rural,36184,Fashion,1,44,3494,Home & Kitchen,464,40,True,medium,1,0.08333333333333333
+#152,54,Female,Rural,53787,Sports,9,132,1276,Electronics,59,7,True,churn_risk,3,0.3
+#153,40,Male,Rural,41621,Technology,4,140,4834,Home & Kitchen,177,46,False,medium,1,0.4
+#154,56,Male,Rural,95564,Fashion,9,113,4432,Home & Kitchen,63,23,True,medium,1,0.5625
+#155,62,Male,Rural,97984,Sports,3,16,1097,Books,561,19,False,high_activity,0,1.05
+#156,32,Female,Suburban,79792,Food,5,36,4176,Books,307,46,True,high_activity,0,1.05
+#157,60,Male,Suburban,65253,Sports,5,10,2831,Home & Kitchen,246,22,False,low,2,0.25
+#158,46,Female,Suburban,54051,Technology,1,181,4037,Health & Beauty,289,13,False,high_activity,0,0.25
+#159,53,Female,Suburban,69811,Travel,1,96,4152,Books,332,21,True,medium,1,0.09090909090909091
+#160,30,Female,Rural,50447,Sports,3,50,472,Home & Kitchen,527,1,False,medium,1,0.3333333333333333
+#161,49,Female,Rural,148046,Travel,0,132,2348,Electronics,255,19,False,medium,1,0.0
+#162,24,Female,Rural,103930,Food,8,84,948,Health & Beauty,510,33,False,medium,1,0.7272727272727273
+#163,39,Female,Urban,143278,Sports,6,51,2656,Apparel,463,4,False,high_activity,0,1.05
+#164,45,Male,Suburban,120037,Fashion,6,126,2422,Home & Kitchen,199,42,False,churn_risk,3,0.2
+#165,19,Male,Suburban,50254,Travel,2,170,603,Home & Kitchen,271,3,True,low,2,0.10526315789473684
+#166,59,Female,Rural,104045,Food,2,187,3289,Health & Beauty,558,27,False,high_activity,0,0.6666666666666666
+#167,62,Female,Suburban,136859,Fashion,0,72,802,Books,64,41,False,low,2,0.0
+#168,23,Male,Suburban,77418,Fashion,2,174,3725,Books,230,35,True,medium,1,0.14285714285714285
+#169,45,Female,Rural,134534,Fashion,2,196,414,Books,249,28,True,low,2,0.08695652173913043
+#170,45,Female,Urban,34472,Fashion,3,136,2476,Apparel,246,6,False,high_activity,0,1.05
+#171,61,Male,Urban,131193,Sports,3,185,1140,Health & Beauty,587,6,True,high_activity,0,1.0
+#172,61,Female,Urban,23471,Sports,2,142,4478,Health & Beauty,157,44,True,churn_risk,3,0.06666666666666667
+#173,37,Female,Rural,127332,Sports,9,57,3090,Books,564,23,True,medium,1,0.5294117647058824
+#174,47,Female,Suburban,140312,Food,7,12,357,Books,88,33,True,medium,1,0.4375
+#175,28,Male,Rural,143379,Food,7,125,674,Electronics,313,16,True,medium,1,0.5
+#176,45,Male,Rural,115804,Food,0,184,4769,Electronics,66,24,True,medium,1,0.0
+#177,42,Male,Suburban,28329,Technology,6,199,1652,Home & Kitchen,20,5,False,low,2,0.3333333333333333
+#178,56,Female,Urban,54865,Food,1,108,4618,Home & Kitchen,33,41,False,low,2,0.045454545454545456
+#179,50,Female,Urban,66850,Sports,0,125,857,Health & Beauty,558,42,True,churn_risk,3,0.0
+#180,18,Male,Rural,74220,Sports,2,23,2910,Health & Beauty,73,13,True,churn_risk,3,0.06666666666666667
+#181,44,Female,Urban,132234,Technology,3,121,1204,Apparel,343,47,False,medium,1,0.375
+#182,30,Female,Rural,113808,Technology,5,70,4624,Apparel,133,12,True,churn_risk,3,0.2
+#183,58,Female,Rural,128381,Food,9,168,3559,Electronics,55,5,False,churn_risk,3,0.3333333333333333
+#184,20,Female,Suburban,26397,Travel,4,104,4092,Home & Kitchen,61,37,True,low,2,0.2222222222222222
+#185,56,Female,Suburban,117909,Technology,3,26,303,Electronics,520,31,False,medium,1,0.375
+#186,23,Male,Suburban,149004,Fashion,7,133,2875,Electronics,272,28,False,medium,1,0.5
+#187,25,Female,Rural,55525,Sports,3,33,2432,Home & Kitchen,246,28,True,medium,1,0.5
+#188,44,Male,Suburban,73072,Fashion,9,125,2092,Apparel,176,30,True,churn_risk,3,0.3333333333333333
+#189,26,Female,Urban,110106,Sports,1,160,2343,Home & Kitchen,317,18,True,low,2,0.05555555555555555
+#190,54,Male,Urban,103820,Sports,2,91,406,Books,131,44,True,high_activity,0,0.5
+#191,50,Female,Rural,104530,Technology,5,59,1787,Books,102,27,False,medium,1,0.625
+#192,59,Male,Rural,43284,Technology,7,88,4209,Books,310,35,True,churn_risk,3,0.25925925925925924
+#193,61,Female,Suburban,81330,Fashion,7,88,1960,Health & Beauty,292,26,False,low,2,0.3888888888888889
+#194,41,Male,Rural,103369,Sports,8,79,2061,Apparel,495,39,True,medium,1,1.0
+#195,32,Female,Rural,45122,Fashion,6,36,822,Apparel,361,49,False,low,2,0.2727272727272727
+#196,49,Male,Urban,90553,Travel,1,24,879,Health & Beauty,338,18,True,high_activity,0,0.5
+#197,49,Female,Urban,101906,Fashion,7,59,628,Electronics,579,33,True,low,2,0.3888888888888889
+#198,41,Male,Suburban,114788,Food,6,45,4993,Books,10,25,False,low,2,0.3333333333333333
+#199,58,Male,Rural,82812,Fashion,7,17,443,Books,49,31,True,medium,1,0.5833333333333334
+#200,29,Female,Rural,27999,Food,2,88,3886,Electronics,487,37,True,churn_risk,3,0.07692307692307693
+#201,56,Female,Urban,42436,Food,6,140,3782,Home & Kitchen,321,2,True,churn_risk,3,0.21428571428571427
+#202,19,Male,Rural,62963,Food,9,199,308,Home & Kitchen,569,33,True,churn_risk,3,0.3
+#203,20,Female,Urban,22096,Travel,8,56,4836,Apparel,133,39,True,high_activity,0,1.05
+#204,54,Male,Suburban,149940,Fashion,2,114,3506,Health & Beauty,583,43,False,medium,1,0.125
+#205,34,Male,Urban,133737,Fashion,9,107,1411,Apparel,83,43,True,churn_risk,3,0.3
+#206,19,Male,Rural,45279,Travel,5,105,2399,Home & Kitchen,57,32,False,low,2,0.22727272727272727
+#207,19,Female,Suburban,141092,Sports,1,198,3436,Electronics,376,18,True,medium,1,0.08333333333333333
+#208,45,Male,Urban,128899,Technology,1,169,2047,Apparel,349,17,True,churn_risk,3,0.037037037037037035
+#209,40,Male,Urban,134245,Fashion,4,125,1019,Books,271,34,False,churn_risk,3,0.13793103448275862
+#210,54,Female,Suburban,46201,Technology,4,22,2144,Books,483,39,False,medium,1,0.23529411764705882
+#211,49,Female,Suburban,39715,Travel,6,10,518,Electronics,111,7,False,churn_risk,3,0.23076923076923078
+#212,50,Female,Urban,49309,Sports,1,43,1849,Home & Kitchen,76,42,False,low,2,0.043478260869565216
+#213,18,Female,Rural,35078,Sports,6,199,2942,Books,158,35,False,churn_risk,3,0.20689655172413793
+#214,36,Male,Urban,76614,Sports,4,88,1199,Books,532,30,True,medium,1,0.4
+#215,19,Male,Suburban,25105,Travel,5,87,3492,Health & Beauty,329,12,False,churn_risk,3,0.2
+#216,61,Male,Urban,137666,Food,7,130,2872,Apparel,122,35,False,churn_risk,3,0.28
+#217,43,Male,Suburban,114848,Food,9,102,2580,Home & Kitchen,41,11,True,high_activity,0,1.05
+#218,49,Female,Suburban,22839,Technology,3,107,1645,Apparel,167,44,True,churn_risk,3,0.1
+#219,23,Male,Rural,88920,Food,6,91,1170,Home & Kitchen,23,4,False,churn_risk,3,0.23076923076923078
+#220,49,Male,Suburban,63619,Food,5,168,1950,Books,279,25,False,low,2,0.21739130434782608
+#221,21,Female,Suburban,62821,Sports,9,162,4298,Health & Beauty,469,48,False,medium,1,0.5294117647058824
+#222,28,Male,Rural,145736,Sports,1,47,3039,Apparel,400,32,True,medium,1,0.1
+#223,34,Male,Suburban,33493,Technology,7,23,2003,Books,9,20,False,low,2,0.35
+#224,55,Male,Rural,37069,Fashion,9,145,778,Home & Kitchen,13,31,True,medium,1,0.6923076923076923
+#225,41,Male,Rural,132443,Technology,8,100,1088,Apparel,52,4,True,low,2,0.4
+#226,22,Male,Suburban,27531,Technology,4,63,2575,Apparel,209,38,True,low,2,0.17391304347826086
+#227,51,Male,Suburban,57051,Travel,9,139,1707,Books,550,47,True,medium,1,0.9
+#228,23,Female,Urban,27736,Travel,3,110,2969,Apparel,402,1,False,medium,1,0.375
+#229,39,Female,Rural,27710,Technology,5,98,1602,Health & Beauty,191,3,True,medium,1,0.3333333333333333
+#230,28,Male,Urban,87155,Technology,7,65,1889,Health & Beauty,51,37,True,churn_risk,3,0.23333333333333334
+#231,33,Male,Suburban,33975,Technology,2,103,1525,Books,393,22,False,low,2,0.1
+#232,50,Female,Urban,82424,Food,9,102,2540,Home & Kitchen,300,17,True,low,2,0.45
+#233,26,Male,Rural,65603,Travel,0,93,2142,Books,196,14,False,high_activity,0,0.0
+#234,23,Male,Urban,43252,Technology,3,94,1378,Health & Beauty,417,41,True,medium,1,0.3
+#235,33,Male,Rural,100797,Sports,3,198,2694,Electronics,420,35,False,medium,1,0.21428571428571427
+#236,46,Female,Suburban,21431,Sports,0,31,4789,Electronics,522,13,True,medium,1,0.0
+#237,20,Male,Suburban,94603,Food,8,44,2536,Apparel,356,35,True,high_activity,0,1.05
+#238,37,Female,Rural,57481,Food,2,25,3903,Apparel,148,43,False,medium,1,0.16666666666666666
+#239,53,Male,Suburban,112573,Fashion,4,59,2305,Electronics,365,2,True,low,2,0.18181818181818182
+#240,36,Female,Suburban,29557,Fashion,5,131,1127,Health & Beauty,364,47,True,medium,1,0.3333333333333333
+#241,43,Female,Suburban,94971,Fashion,7,137,3639,Apparel,402,13,False,churn_risk,3,0.2692307692307692
+#242,20,Male,Suburban,123302,Food,5,122,3583,Books,492,16,True,medium,1,0.5555555555555556
+#243,36,Female,Rural,20162,Food,2,180,2341,Books,229,18,True,low,2,0.10526315789473684
+#244,37,Male,Urban,54742,Food,5,26,2865,Health & Beauty,575,7,False,low,2,0.25
+#245,49,Female,Urban,39675,Sports,0,89,1273,Apparel,537,45,False,medium,1,0.0
+#246,24,Male,Suburban,93997,Food,3,195,3330,Books,268,36,False,high_activity,0,1.0
+#247,58,Male,Urban,37015,Sports,5,139,3450,Apparel,405,41,False,medium,1,0.5555555555555556
+#248,50,Female,Urban,70057,Fashion,6,141,503,Apparel,11,30,False,low,2,0.2608695652173913
+#249,57,Male,Suburban,52591,Fashion,9,94,2825,Books,320,42,True,medium,1,1.05
+#250,56,Male,Suburban,113583,Fashion,2,176,3482,Electronics,126,41,False,medium,1,0.15384615384615385
+#251,35,Female,Urban,146133,Technology,8,103,4263,Books,306,7,True,medium,1,0.5
+#252,57,Male,Rural,120318,Technology,6,143,187,Health & Beauty,511,15,False,churn_risk,3,0.23076923076923078
+#253,18,Male,Suburban,29833,Travel,0,90,1258,Home & Kitchen,89,40,True,medium,1,0.0
+#254,28,Female,Rural,27896,Travel,1,78,4373,Books,355,19,True,high_activity,0,0.2
+#255,45,Female,Urban,52972,Travel,0,78,2957,Apparel,352,43,False,medium,1,0.0
+#256,42,Male,Suburban,69733,Technology,8,157,1481,Apparel,14,37,True,churn_risk,3,0.27586206896551724
+#257,40,Male,Rural,140363,Technology,8,25,4781,Books,257,2,True,low,2,0.38095238095238093
+#258,48,Female,Suburban,61800,Travel,6,60,2164,Home & Kitchen,209,42,False,churn_risk,3,0.23076923076923078
+#259,47,Female,Urban,116044,Travel,9,114,2474,Books,281,48,False,low,2,0.5
+#260,59,Male,Rural,25347,Food,2,174,417,Home & Kitchen,443,13,False,medium,1,0.14285714285714285
+#261,52,Female,Urban,79063,Travel,4,179,1602,Home & Kitchen,389,40,False,low,2,0.21052631578947367
+#262,24,Male,Urban,115850,Food,3,194,2142,Health & Beauty,483,41,True,high_activity,0,1.0
+#263,33,Male,Suburban,22643,Sports,6,75,4698,Apparel,147,43,True,medium,1,0.42857142857142855
+#264,43,Male,Rural,60785,Technology,8,18,2122,Apparel,279,43,True,medium,1,0.5714285714285714
+#265,19,Male,Urban,38681,Travel,1,116,218,Home & Kitchen,521,31,True,low,2,0.043478260869565216
+#266,18,Male,Urban,70026,Technology,7,109,809,Apparel,434,16,True,medium,1,0.4375
+#267,29,Female,Rural,123864,Technology,8,95,3657,Electronics,144,42,True,low,2,0.38095238095238093
+#268,22,Female,Urban,35892,Technology,9,73,4240,Home & Kitchen,289,44,False,churn_risk,3,0.3
+#269,54,Female,Urban,67299,Sports,9,31,4509,Apparel,386,6,True,churn_risk,3,0.32142857142857145
+#270,49,Female,Rural,37073,Fashion,8,171,3350,Electronics,14,28,True,medium,1,0.7272727272727273
+#271,26,Male,Rural,122304,Travel,9,192,517,Health & Beauty,257,32,True,churn_risk,3,0.3
+#272,58,Male,Rural,50682,Fashion,6,166,2703,Apparel,346,44,False,high_activity,0,1.05
+#273,52,Male,Rural,117798,Fashion,8,175,3954,Electronics,345,10,False,low,2,0.4
+#274,36,Male,Suburban,146021,Fashion,8,119,1201,Books,400,18,False,high_activity,0,1.05
+#275,33,Female,Rural,116894,Technology,2,106,4521,Books,207,4,False,low,2,0.08695652173913043
+#276,20,Male,Suburban,144302,Food,3,27,3528,Electronics,172,9,True,medium,1,0.2
+#277,37,Male,Suburban,34289,Technology,1,80,2361,Home & Kitchen,464,7,True,medium,1,0.1111111111111111
+#278,41,Female,Suburban,135359,Technology,9,136,4269,Home & Kitchen,270,8,True,churn_risk,3,0.32142857142857145
+#279,50,Female,Urban,27927,Fashion,2,106,3734,Apparel,221,43,False,low,2,0.08333333333333333
+#280,41,Female,Suburban,68330,Technology,4,10,608,Books,152,7,True,high_activity,0,0.8
+#281,28,Female,Suburban,86707,Fashion,4,141,2479,Home & Kitchen,183,41,True,churn_risk,3,0.14285714285714285
+#282,25,Male,Urban,140279,Food,5,13,3264,Home & Kitchen,399,40,True,churn_risk,3,0.1724137931034483
+#283,53,Male,Urban,97454,Travel,6,134,787,Books,72,3,False,low,2,0.2857142857142857
+#284,55,Female,Urban,127439,Fashion,6,91,4852,Health & Beauty,418,17,False,medium,1,0.5
+#285,57,Male,Rural,124646,Food,0,36,1392,Home & Kitchen,283,2,False,churn_risk,3,0.0
+#286,37,Male,Urban,85428,Travel,1,180,4005,Electronics,74,15,True,medium,1,0.08333333333333333
+#287,52,Male,Urban,70601,Sports,8,68,3175,Apparel,355,46,True,churn_risk,3,0.2857142857142857
+#288,42,Female,Suburban,97465,Fashion,9,41,3309,Home & Kitchen,497,29,True,medium,1,0.75
+#289,52,Male,Urban,22539,Fashion,1,170,424,Home & Kitchen,328,48,True,high_activity,0,0.3333333333333333
+#290,42,Female,Rural,122263,Sports,5,37,2093,Health & Beauty,535,22,False,low,2,0.2777777777777778
+#291,46,Male,Urban,131487,Sports,0,115,4076,Electronics,580,4,True,medium,1,0.0
+#292,35,Male,Rural,42669,Fashion,2,114,4912,Apparel,447,6,False,churn_risk,3,0.06896551724137931
+#293,63,Male,Urban,90968,Sports,1,192,2870,Home & Kitchen,373,38,True,churn_risk,3,0.034482758620689655
+#294,35,Female,Urban,40644,Technology,2,197,4472,Apparel,362,26,False,high_activity,0,0.6666666666666666
+#295,19,Male,Urban,38745,Travel,4,79,2683,Books,93,11,True,churn_risk,3,0.13333333333333333
+#296,52,Female,Urban,140852,Travel,9,71,3657,Home & Kitchen,321,26,True,churn_risk,3,0.36
+#297,33,Female,Rural,148081,Travel,5,43,3687,Home & Kitchen,324,17,False,medium,1,0.3125
+#298,58,Female,Rural,48228,Technology,8,96,251,Books,384,24,False,medium,1,0.47058823529411764
+#299,53,Male,Suburban,138358,Sports,9,123,1054,Health & Beauty,575,28,True,churn_risk,3,0.34615384615384615
+#300,50,Male,Rural,54521,Food,3,115,4454,Home & Kitchen,346,35,True,high_activity,0,0.6
+#301,21,Male,Urban,142788,Sports,6,65,2471,Apparel,103,31,True,medium,1,0.6666666666666666
+#302,50,Male,Suburban,117239,Fashion,5,122,1291,Electronics,215,13,False,medium,1,0.5
+#303,31,Female,Suburban,46928,Travel,1,22,787,Apparel,192,35,True,churn_risk,3,0.037037037037037035
+#304,38,Female,Suburban,38322,Sports,9,193,409,Health & Beauty,194,16,False,churn_risk,3,0.3333333333333333
+#305,37,Female,Urban,77714,Food,7,27,1602,Electronics,380,15,True,medium,1,1.05
+#306,25,Male,Rural,107896,Fashion,6,191,3227,Apparel,403,43,True,medium,1,0.35294117647058826
+#307,24,Female,Urban,82292,Technology,6,122,4668,Apparel,11,18,True,medium,1,0.42857142857142855
+#308,20,Male,Suburban,49055,Technology,7,180,3467,Books,187,47,True,medium,1,0.875
+#309,34,Female,Urban,62891,Food,0,48,3495,Health & Beauty,15,37,False,churn_risk,3,0.0
+#310,50,Male,Urban,101912,Fashion,0,198,913,Books,297,48,False,low,2,0.0
+#311,29,Male,Rural,26588,Travel,7,179,945,Electronics,411,48,True,low,2,0.3888888888888889
+#312,39,Female,Rural,110536,Sports,3,88,1264,Books,585,49,True,high_activity,0,0.75
+#313,39,Female,Suburban,26304,Fashion,4,155,4862,Health & Beauty,52,41,True,medium,1,0.6666666666666666
+#314,63,Female,Urban,27345,Technology,7,160,1867,Home & Kitchen,28,27,False,low,2,0.35
+#315,47,Female,Urban,49300,Food,4,191,454,Home & Kitchen,577,35,True,medium,1,0.3076923076923077
+#316,55,Male,Rural,44259,Food,9,39,1972,Electronics,17,45,False,churn_risk,3,0.3
+#317,55,Female,Urban,111006,Sports,3,107,2124,Home & Kitchen,351,35,False,churn_risk,3,0.10714285714285714
+#318,62,Female,Urban,108553,Food,5,67,2917,Books,428,28,False,medium,1,0.625
+#319,25,Female,Urban,35352,Food,4,76,3932,Electronics,229,39,False,churn_risk,3,0.13793103448275862
+#320,44,Male,Rural,149350,Fashion,6,80,4375,Health & Beauty,210,38,True,medium,1,0.6
+#321,44,Male,Suburban,53365,Travel,9,155,165,Electronics,431,9,True,churn_risk,3,0.3103448275862069
+#322,51,Female,Suburban,39446,Sports,6,115,4366,Electronics,294,12,False,medium,1,0.8571428571428571
+#323,38,Male,Urban,22336,Fashion,3,16,4190,Apparel,582,15,True,churn_risk,3,0.1
+#324,47,Female,Suburban,82032,Travel,4,49,2621,Apparel,104,21,True,churn_risk,3,0.14814814814814814
+#325,50,Male,Rural,95415,Fashion,2,79,2681,Electronics,204,35,True,low,2,0.1111111111111111
+#326,45,Male,Rural,117852,Fashion,3,77,1490,Home & Kitchen,53,42,False,medium,1,0.17647058823529413
+#327,64,Male,Suburban,118876,Food,3,58,1230,Apparel,375,33,True,low,2,0.125
+#328,50,Male,Suburban,27521,Travel,2,61,2586,Health & Beauty,54,19,True,high_activity,0,0.5
+#329,22,Female,Urban,91707,Sports,9,123,934,Books,276,23,True,low,2,0.4090909090909091
+#330,36,Female,Suburban,43481,Sports,4,116,326,Apparel,335,13,True,churn_risk,3,0.14814814814814814
+#331,21,Female,Urban,38474,Travel,4,38,3615,Electronics,31,44,True,high_activity,0,0.8
+#332,52,Male,Urban,66760,Food,6,158,4637,Home & Kitchen,135,1,True,medium,1,0.5454545454545454
+#333,34,Female,Rural,75718,Technology,3,87,2543,Books,58,29,True,medium,1,0.5
+#334,61,Female,Rural,64629,Fashion,3,18,827,Apparel,105,24,True,low,2,0.13636363636363635
+#335,45,Female,Rural,65232,Food,8,184,3786,Home & Kitchen,266,16,True,low,2,0.34782608695652173
+#336,47,Male,Rural,106544,Travel,5,85,3722,Home & Kitchen,522,25,True,medium,1,0.45454545454545453
+#337,46,Male,Suburban,87169,Fashion,3,51,1136,Home & Kitchen,496,23,False,medium,1,0.23076923076923078
+#338,63,Male,Rural,147941,Sports,1,188,1932,Electronics,253,28,True,medium,1,0.09090909090909091
+#339,23,Female,Suburban,70669,Technology,5,193,2840,Health & Beauty,295,47,False,churn_risk,3,0.16666666666666666
+#340,52,Female,Rural,98021,Sports,1,188,592,Home & Kitchen,158,16,True,medium,1,0.07142857142857142
+#341,58,Female,Suburban,129153,Travel,4,137,1648,Books,549,43,False,medium,1,0.3333333333333333
+#342,54,Male,Urban,89184,Fashion,5,29,1243,Apparel,67,38,False,low,2,0.21739130434782608
+#343,41,Male,Suburban,67945,Travel,3,164,4057,Books,299,11,True,medium,1,0.17647058823529413
+#344,46,Female,Suburban,33140,Fashion,2,175,3507,Electronics,463,3,False,medium,1,0.2222222222222222
+#345,63,Male,Rural,146468,Food,6,81,739,Electronics,101,15,False,medium,1,0.6666666666666666
+#346,48,Male,Suburban,103457,Technology,1,74,272,Books,56,1,False,churn_risk,3,0.03571428571428571
+#347,52,Male,Urban,34357,Food,5,191,4454,Health & Beauty,332,7,True,churn_risk,3,0.19230769230769232
+#348,50,Male,Urban,131672,Food,3,122,4059,Electronics,393,1,False,medium,1,0.3333333333333333
+#349,38,Female,Rural,88673,Travel,5,33,616,Electronics,381,49,False,medium,1,0.35714285714285715
+#350,49,Male,Urban,141673,Technology,3,137,622,Books,92,32,True,churn_risk,3,0.10714285714285714
+#351,40,Male,Suburban,85633,Fashion,3,184,2017,Electronics,447,9,False,high_activity,0,1.0
+#352,50,Male,Urban,96943,Fashion,3,92,2986,Health & Beauty,109,29,False,medium,1,0.23076923076923078
+#353,20,Male,Rural,116111,Sports,8,72,2264,Health & Beauty,317,26,False,medium,1,0.7272727272727273
+#354,35,Female,Suburban,98258,Fashion,6,194,2029,Health & Beauty,168,23,True,medium,1,0.46153846153846156
+#355,42,Female,Rural,32924,Travel,2,192,4045,Apparel,435,45,False,medium,1,0.16666666666666666
+#356,59,Male,Suburban,89286,Food,2,69,2309,Health & Beauty,442,43,True,medium,1,0.125
+#357,48,Male,Urban,113269,Food,5,108,3883,Health & Beauty,218,29,False,medium,1,0.29411764705882354
+#358,20,Male,Rural,147563,Food,5,71,2690,Apparel,222,38,False,low,2,0.2777777777777778
+#359,57,Male,Rural,94071,Technology,3,39,4176,Home & Kitchen,528,33,False,churn_risk,3,0.1111111111111111
+#360,63,Male,Suburban,77326,Fashion,8,31,1193,Electronics,278,7,False,high_activity,0,1.05
+#361,41,Male,Rural,110023,Travel,3,135,3980,Health & Beauty,569,12,True,low,2,0.15789473684210525
+#362,49,Female,Suburban,140101,Technology,8,166,2594,Electronics,574,31,False,medium,1,0.6153846153846154
+#363,64,Male,Suburban,50651,Sports,3,178,2679,Books,466,32,True,low,2,0.15
+#364,39,Female,Suburban,90202,Travel,1,51,2588,Electronics,584,20,False,churn_risk,3,0.037037037037037035
+#365,40,Female,Suburban,68777,Travel,1,107,2885,Apparel,30,17,True,low,2,0.041666666666666664
+#366,19,Male,Urban,36994,Travel,4,40,2858,Electronics,359,36,False,low,2,0.21052631578947367
+#367,44,Female,Suburban,87263,Food,3,167,1674,Electronics,288,3,False,low,2,0.16666666666666666
+#368,59,Female,Rural,79634,Travel,6,121,2473,Electronics,86,1,True,medium,1,0.8571428571428571
+#369,19,Female,Urban,120158,Fashion,4,155,4090,Home & Kitchen,234,27,True,churn_risk,3,0.15384615384615385
+#370,43,Female,Rural,30800,Travel,5,131,4945,Home & Kitchen,313,47,True,medium,1,0.3125
+#371,34,Female,Urban,57823,Food,9,26,1193,Books,365,40,True,high_activity,0,1.05
+#372,57,Female,Suburban,128575,Travel,3,47,1289,Apparel,269,33,False,medium,1,0.42857142857142855
+#373,50,Male,Urban,83878,Sports,1,151,2789,Electronics,131,20,True,high_activity,0,0.25
+#374,26,Female,Urban,38708,Sports,9,119,4195,Electronics,351,14,True,churn_risk,3,0.3
+#375,60,Female,Rural,32819,Food,8,193,1975,Electronics,180,36,True,high_activity,0,1.05
+#376,56,Female,Rural,94905,Fashion,9,31,3506,Electronics,480,5,False,medium,1,0.6428571428571429
+#377,46,Male,Suburban,83870,Fashion,6,65,1887,Home & Kitchen,163,23,False,churn_risk,3,0.20689655172413793
+#378,59,Female,Urban,29283,Technology,3,128,4032,Books,96,45,False,low,2,0.13636363636363635
+#379,43,Male,Urban,50573,Food,2,156,1707,Health & Beauty,510,15,False,churn_risk,3,0.07407407407407407
+#380,52,Female,Urban,98707,Travel,9,66,3848,Apparel,365,6,True,medium,1,0.6
+#381,42,Male,Suburban,50933,Food,2,181,148,Electronics,353,33,False,medium,1,0.14285714285714285
+#382,41,Male,Suburban,25774,Technology,8,44,3961,Books,436,19,True,churn_risk,3,0.2857142857142857
+#383,30,Female,Suburban,92055,Food,4,123,2280,Health & Beauty,83,13,False,high_activity,0,0.8
+#384,24,Female,Suburban,30983,Food,2,134,3146,Books,225,29,True,medium,1,0.25
+#385,53,Male,Suburban,116468,Technology,4,138,2933,Home & Kitchen,412,6,True,low,2,0.17391304347826086
+#386,62,Female,Rural,116334,Fashion,1,61,1497,Health & Beauty,118,15,True,medium,1,0.09090909090909091
+#387,37,Male,Urban,38133,Travel,3,94,3926,Books,482,16,True,medium,1,0.375
+#388,18,Male,Urban,145555,Technology,9,174,4674,Home & Kitchen,192,24,True,low,2,0.4090909090909091
+#389,25,Male,Urban,34939,Sports,1,74,931,Books,591,23,False,medium,1,0.0625
+#390,63,Male,Urban,20781,Fashion,1,188,2797,Books,590,48,True,medium,1,0.0625
+#391,33,Male,Urban,134586,Sports,7,138,4877,Health & Beauty,107,10,True,high_activity,0,1.05
+#392,31,Female,Urban,76700,Fashion,0,30,2835,Home & Kitchen,382,41,True,low,2,0.0
+#393,29,Male,Urban,47624,Travel,6,190,181,Electronics,390,41,True,low,2,0.25
+#394,40,Male,Urban,26823,Travel,4,25,186,Apparel,244,49,False,medium,1,0.5714285714285714
+#395,32,Female,Rural,38489,Food,7,132,2163,Health & Beauty,585,17,False,churn_risk,3,0.28
+#396,45,Male,Urban,138555,Sports,0,70,921,Home & Kitchen,468,49,True,low,2,0.0
+#397,51,Female,Rural,59961,Fashion,6,63,262,Books,538,44,True,churn_risk,3,0.2222222222222222
+#398,19,Female,Suburban,139664,Travel,4,177,3839,Home & Kitchen,210,45,True,medium,1,0.6666666666666666
+#399,49,Female,Urban,49118,Technology,3,35,2497,Apparel,73,30,True,low,2,0.14285714285714285
+#400,40,Male,Suburban,120417,Travel,6,89,2032,Apparel,309,44,False,medium,1,0.46153846153846156
+#401,39,Male,Suburban,101816,Technology,9,74,2828,Electronics,590,46,False,high_activity,0,1.05
+#402,42,Male,Suburban,42263,Fashion,1,109,3635,Electronics,186,10,True,churn_risk,3,0.034482758620689655
+#403,39,Female,Rural,33565,Travel,0,83,3546,Apparel,253,19,True,medium,1,0.0
+#404,39,Male,Suburban,40354,Travel,0,180,2890,Health & Beauty,13,29,True,high_activity,0,0.0
+#405,59,Female,Suburban,62951,Fashion,0,26,2807,Health & Beauty,299,2,True,medium,1,0.0
+#406,23,Male,Suburban,111179,Travel,4,130,4033,Books,76,36,True,low,2,0.17391304347826086
+#407,32,Female,Urban,43648,Technology,9,196,3485,Electronics,51,19,False,medium,1,1.05
+#408,60,Male,Urban,70729,Travel,6,32,1022,Books,149,7,False,churn_risk,3,0.2
+#409,54,Male,Rural,61971,Sports,1,144,2275,Electronics,122,26,True,low,2,0.045454545454545456
+#410,50,Male,Rural,38658,Food,9,181,1682,Apparel,211,15,False,high_activity,0,1.05
+#411,25,Female,Urban,41253,Technology,7,190,664,Health & Beauty,280,47,False,medium,1,0.4375
+#412,61,Female,Rural,84166,Sports,3,80,3358,Health & Beauty,538,38,False,medium,1,0.5
+#413,61,Male,Urban,68563,Fashion,2,117,2697,Apparel,156,3,True,churn_risk,3,0.06896551724137931
+#414,22,Male,Suburban,46390,Technology,9,88,2600,Books,238,38,False,churn_risk,3,0.36
+#415,56,Female,Suburban,108664,Food,7,171,4666,Books,376,16,False,medium,1,0.4666666666666667
+#416,21,Female,Rural,71578,Food,1,55,1087,Home & Kitchen,82,2,True,low,2,0.05263157894736842
+#417,23,Female,Urban,99025,Fashion,2,87,3736,Electronics,492,31,False,medium,1,0.11764705882352941
+#418,62,Male,Urban,123850,Fashion,2,25,323,Books,356,28,True,medium,1,0.2857142857142857
+#419,49,Female,Rural,52658,Technology,9,80,450,Apparel,273,7,False,churn_risk,3,0.34615384615384615
+#420,47,Male,Urban,26852,Travel,0,105,2028,Books,580,30,True,churn_risk,3,0.0
+#421,64,Female,Suburban,147282,Fashion,5,156,448,Health & Beauty,44,43,True,medium,1,0.3333333333333333
+#422,52,Male,Rural,114986,Travel,1,11,4377,Electronics,573,7,False,churn_risk,3,0.03571428571428571
+#423,57,Female,Rural,22551,Sports,0,19,4832,Home & Kitchen,123,36,False,churn_risk,3,0.0
+#424,33,Female,Urban,91947,Food,1,187,1117,Electronics,349,29,True,medium,1,0.1111111111111111
+#425,30,Female,Rural,81001,Travel,5,134,2326,Health & Beauty,330,24,True,churn_risk,3,0.16666666666666666
+#426,59,Female,Urban,69159,Food,3,90,4967,Health & Beauty,409,39,False,medium,1,0.375
+#427,47,Female,Urban,142775,Travel,5,149,4224,Health & Beauty,323,4,False,medium,1,0.5555555555555556
+#428,36,Male,Urban,71707,Sports,8,79,2519,Health & Beauty,111,29,False,medium,1,0.5714285714285714
+#429,34,Female,Urban,53243,Fashion,9,159,1993,Apparel,89,44,False,medium,1,1.05
+#430,36,Female,Urban,41800,Sports,9,41,3140,Home & Kitchen,433,5,True,low,2,0.47368421052631576
+#431,45,Female,Rural,95939,Fashion,7,114,2168,Health & Beauty,99,29,True,high_activity,0,1.05
+#432,43,Male,Suburban,77828,Fashion,0,93,1225,Health & Beauty,539,30,True,medium,1,0.0
+#433,54,Female,Suburban,27239,Food,7,138,3217,Books,146,29,False,medium,1,0.5833333333333334
+#434,43,Male,Rural,26710,Sports,8,191,4261,Home & Kitchen,257,26,False,high_activity,0,1.05
+#435,40,Female,Rural,41384,Travel,5,67,4142,Electronics,189,19,True,low,2,0.21739130434782608
+#436,26,Female,Suburban,41038,Sports,9,155,4533,Home & Kitchen,240,26,True,churn_risk,3,0.3
+#437,29,Male,Suburban,60846,Food,4,143,2270,Home & Kitchen,503,37,True,medium,1,0.5714285714285714
+#438,18,Female,Suburban,107983,Fashion,5,54,546,Home & Kitchen,271,27,True,medium,1,0.29411764705882354
+#439,18,Male,Suburban,87821,Food,5,106,2758,Health & Beauty,520,30,True,churn_risk,3,0.17857142857142858
+#440,64,Male,Suburban,57991,Technology,8,32,3462,Health & Beauty,550,30,True,low,2,0.38095238095238093
+#441,51,Female,Urban,99057,Technology,3,32,2818,Apparel,114,3,False,medium,1,0.23076923076923078
+#442,49,Male,Rural,133193,Travel,1,163,3583,Electronics,339,43,True,medium,1,0.08333333333333333
+#443,42,Female,Urban,26971,Food,8,144,3044,Books,568,7,True,churn_risk,3,0.26666666666666666
+#444,57,Female,Suburban,49139,Travel,1,88,4476,Home & Kitchen,359,49,True,churn_risk,3,0.03571428571428571
+#445,62,Male,Suburban,105445,Travel,9,53,695,Electronics,334,9,True,churn_risk,3,0.3
+#446,18,Male,Suburban,97067,Technology,8,36,2086,Electronics,169,41,True,medium,1,0.7272727272727273
+#447,33,Male,Urban,100257,Travel,1,35,2850,Apparel,339,42,True,high_activity,0,0.25
+#448,56,Male,Urban,104742,Technology,7,106,1174,Books,261,13,True,medium,1,0.5
+#449,22,Female,Suburban,57711,Fashion,8,45,4069,Home & Kitchen,199,15,False,churn_risk,3,0.2857142857142857
+#450,39,Female,Urban,26530,Food,9,118,4405,Books,211,5,True,high_activity,0,1.05
+#451,46,Male,Urban,31116,Travel,8,64,4321,Apparel,287,29,False,medium,1,0.5
+#452,20,Female,Suburban,85794,Technology,9,194,4687,Health & Beauty,472,35,False,medium,1,0.5294117647058824
+#453,29,Female,Urban,20282,Sports,8,78,3680,Electronics,482,27,False,churn_risk,3,0.26666666666666666
+#454,43,Female,Rural,99473,Travel,1,70,3107,Home & Kitchen,23,27,True,medium,1,0.07142857142857142
+#455,33,Female,Rural,21898,Fashion,3,139,1069,Health & Beauty,560,8,True,low,2,0.16666666666666666
+#456,54,Male,Rural,24135,Fashion,6,64,680,Apparel,109,32,True,high_activity,0,1.05
+#457,39,Male,Rural,26629,Sports,1,131,2924,Books,296,20,True,low,2,0.047619047619047616
+#458,46,Female,Suburban,129472,Technology,0,106,4101,Electronics,6,10,True,medium,1,0.0
+#459,31,Male,Suburban,145147,Travel,2,89,1311,Home & Kitchen,550,13,True,churn_risk,3,0.07142857142857142
+#460,45,Male,Suburban,105120,Technology,3,96,329,Health & Beauty,203,29,True,low,2,0.13636363636363635
+#461,22,Male,Rural,139798,Fashion,7,47,4384,Health & Beauty,325,35,True,low,2,0.35
+#462,64,Female,Rural,109087,Technology,5,128,3285,Electronics,244,8,True,low,2,0.21739130434782608
+#463,47,Female,Urban,85031,Fashion,1,87,601,Books,327,29,True,medium,1,0.08333333333333333
+#464,63,Female,Urban,53380,Technology,8,166,2232,Apparel,47,31,False,churn_risk,3,0.27586206896551724
+#465,22,Male,Rural,149951,Sports,1,163,148,Books,591,41,True,medium,1,0.058823529411764705
+#466,29,Female,Rural,132507,Food,4,44,3666,Books,13,30,True,low,2,0.18181818181818182
+#467,33,Female,Rural,37071,Sports,3,88,3155,Books,380,22,True,high_activity,0,0.75
+#468,43,Male,Rural,40074,Sports,6,76,788,Electronics,365,21,False,low,2,0.2608695652173913
+#469,43,Female,Urban,110724,Food,7,96,486,Electronics,342,12,True,medium,1,1.0
+#470,38,Female,Rural,87843,Food,4,166,1069,Apparel,221,11,True,medium,1,0.26666666666666666
+#471,56,Male,Urban,59901,Travel,9,43,3560,Books,73,2,False,churn_risk,3,0.36
+#472,53,Male,Rural,31205,Travel,4,106,1105,Electronics,46,41,True,low,2,0.21052631578947367
+#473,50,Male,Rural,75661,Sports,1,178,3152,Apparel,504,2,False,low,2,0.05555555555555555
+#474,47,Female,Rural,144661,Sports,7,178,3517,Apparel,274,34,False,high_activity,0,1.05
+#475,54,Female,Urban,25906,Fashion,1,160,2402,Books,555,3,False,low,2,0.041666666666666664
+#476,40,Female,Urban,22591,Fashion,9,80,2383,Home & Kitchen,208,16,False,medium,1,0.5625
+#477,27,Male,Suburban,145576,Travel,5,12,1707,Books,124,4,True,medium,1,0.4166666666666667
+#478,22,Male,Rural,82987,Travel,7,67,4466,Home & Kitchen,10,23,False,churn_risk,3,0.25925925925925924
+#479,53,Female,Suburban,83370,Fashion,5,41,222,Apparel,329,20,False,high_activity,0,1.05
+#480,51,Female,Suburban,100685,Fashion,3,40,1380,Electronics,187,25,True,high_activity,0,0.75
+#481,48,Male,Urban,130454,Technology,3,91,3827,Health & Beauty,543,30,True,medium,1,0.17647058823529413
+#482,27,Male,Urban,125487,Technology,5,52,358,Apparel,60,18,True,medium,1,0.8333333333333334
+#483,36,Male,Suburban,74400,Fashion,3,144,1047,Electronics,442,42,False,low,2,0.13636363636363635
+#484,49,Male,Rural,45150,Technology,7,114,624,Apparel,217,11,True,churn_risk,3,0.23333333333333334
+#485,18,Female,Urban,51852,Food,8,10,987,Books,2,29,False,medium,1,0.7272727272727273
+#486,22,Male,Rural,62870,Travel,0,70,307,Home & Kitchen,536,17,False,low,2,0.0
+#487,62,Female,Rural,139796,Travel,3,23,3482,Apparel,356,26,True,churn_risk,3,0.11538461538461539
+#488,21,Female,Suburban,72756,Fashion,3,189,2894,Electronics,165,23,True,high_activity,0,0.6
+#489,33,Female,Suburban,135357,Sports,1,15,248,Books,91,48,True,churn_risk,3,0.03333333333333333
+#490,41,Male,Suburban,139052,Fashion,5,112,537,Health & Beauty,167,20,True,churn_risk,3,0.16666666666666666
+#491,33,Male,Suburban,76481,Technology,2,19,2302,Books,207,45,True,low,2,0.1
+#492,19,Male,Urban,21283,Sports,6,80,3849,Home & Kitchen,282,2,True,medium,1,0.5
+#493,45,Male,Urban,53691,Technology,4,99,3261,Books,65,24,False,high_activity,0,1.05
+#494,49,Female,Suburban,21125,Food,3,167,4001,Health & Beauty,516,31,False,medium,1,0.2727272727272727
+#495,44,Male,Urban,87065,Technology,4,158,4553,Electronics,157,27,True,churn_risk,3,0.13333333333333333
+#496,37,Male,Suburban,148734,Food,7,135,3345,Apparel,306,2,False,medium,1,0.5833333333333334
+#497,41,Female,Rural,46170,Food,2,197,4651,Home & Kitchen,395,14,False,churn_risk,3,0.07692307692307693
+#498,29,Male,Rural,28438,Technology,6,106,2923,Health & Beauty,74,4,False,low,2,0.2857142857142857
+#499,52,Female,Rural,40095,Technology,5,83,4824,Home & Kitchen,187,49,False,medium,1,0.29411764705882354
+#500,50,Female,Suburban,36154,Food,0,124,3370,Books,574,13,False,low,2,0.0
+#501,50,Female,Rural,28004,Sports,6,179,585,Home & Kitchen,337,36,False,low,2,0.25
+#502,60,Female,Urban,29752,Food,6,60,299,Health & Beauty,568,35,True,churn_risk,3,0.24
+#503,54,Female,Rural,75426,Travel,0,65,4566,Apparel,240,44,True,medium,1,0.0
+#504,29,Female,Rural,128896,Food,8,50,2082,Apparel,533,8,True,medium,1,0.5333333333333333
+#505,20,Female,Rural,46819,Sports,5,41,1571,Home & Kitchen,141,2,False,high_activity,0,1.05
+#506,18,Female,Urban,122168,Travel,1,24,4443,Electronics,265,6,True,low,2,0.041666666666666664
+#507,50,Male,Suburban,112051,Fashion,4,71,4983,Home & Kitchen,139,31,True,churn_risk,3,0.13793103448275862
+#508,57,Male,Urban,147905,Fashion,3,164,2411,Books,459,10,True,medium,1,0.5
+#509,27,Male,Suburban,44217,Sports,6,37,3473,Apparel,70,44,False,churn_risk,3,0.21428571428571427
+#510,60,Male,Suburban,145949,Food,7,73,2178,Apparel,385,21,True,medium,1,1.05
+#511,61,Female,Rural,108708,Technology,0,196,1621,Apparel,198,42,False,low,2,0.0
+#512,46,Male,Suburban,52994,Sports,4,195,704,Electronics,205,10,True,low,2,0.18181818181818182
+#513,30,Female,Urban,35036,Travel,2,139,3948,Electronics,568,23,True,medium,1,0.15384615384615385
+#514,29,Male,Urban,97275,Travel,0,136,3442,Health & Beauty,431,3,True,low,2,0.0
+#515,48,Male,Suburban,117756,Fashion,2,45,1517,Home & Kitchen,325,32,False,high_activity,0,0.4
+#516,63,Male,Rural,69416,Travel,5,123,4697,Home & Kitchen,442,20,False,low,2,0.21739130434782608
+#517,19,Female,Rural,29587,Sports,6,22,3975,Books,288,10,False,low,2,0.3333333333333333
+#518,52,Male,Urban,130053,Travel,7,24,3033,Apparel,226,29,False,medium,1,0.6363636363636364
+#519,40,Female,Rural,115665,Sports,3,98,648,Electronics,64,41,False,low,2,0.14285714285714285
+#520,34,Female,Suburban,20645,Technology,2,197,938,Books,560,46,True,medium,1,0.2857142857142857
+#521,43,Male,Suburban,50930,Fashion,4,31,3915,Books,498,34,True,churn_risk,3,0.15384615384615385
+#522,25,Male,Urban,101835,Travel,8,83,947,Electronics,60,37,False,medium,1,0.5333333333333333
+#523,46,Male,Suburban,142232,Sports,5,34,4809,Home & Kitchen,397,20,False,medium,1,0.4166666666666667
+#524,43,Female,Urban,50090,Food,8,110,4607,Apparel,257,8,True,medium,1,0.6666666666666666
+#525,27,Male,Suburban,107489,Fashion,5,185,4873,Home & Kitchen,577,7,False,churn_risk,3,0.16666666666666666
+#526,43,Female,Urban,72142,Technology,1,180,4354,Books,239,6,True,low,2,0.05263157894736842
+#527,51,Female,Rural,131979,Sports,4,126,4568,Apparel,38,11,False,churn_risk,3,0.14285714285714285
+#528,58,Male,Suburban,46475,Technology,8,175,2372,Health & Beauty,25,44,True,low,2,0.3333333333333333
+#529,24,Male,Suburban,38888,Technology,7,50,3420,Books,410,18,False,low,2,0.30434782608695654
+#530,21,Female,Urban,63732,Travel,6,182,2658,Home & Kitchen,461,42,False,low,2,0.3157894736842105
+#531,62,Female,Urban,101623,Travel,0,97,4798,Home & Kitchen,571,29,True,churn_risk,3,0.0
+#532,28,Female,Suburban,66305,Sports,3,177,4411,Home & Kitchen,417,25,True,low,2,0.125
+#533,46,Male,Urban,66037,Food,6,119,2096,Electronics,357,21,False,medium,1,0.5
+#534,53,Female,Suburban,29346,Sports,6,129,3773,Books,383,46,False,low,2,0.2727272727272727
+#535,42,Male,Rural,20587,Food,5,106,1664,Apparel,158,3,True,medium,1,0.38461538461538464
+#536,38,Female,Urban,32763,Technology,7,154,4118,Home & Kitchen,569,18,False,medium,1,1.05
+#537,53,Female,Suburban,79165,Fashion,5,66,1940,Home & Kitchen,433,24,True,low,2,0.20833333333333334
+#538,27,Male,Rural,127481,Sports,9,139,3391,Electronics,48,47,True,medium,1,0.9
+#539,54,Female,Rural,89615,Sports,2,105,2987,Apparel,328,38,False,churn_risk,3,0.07142857142857142
+#540,26,Male,Suburban,56116,Food,3,130,826,Books,433,10,True,churn_risk,3,0.11538461538461539
+#541,41,Male,Urban,140987,Technology,2,71,1344,Health & Beauty,431,27,True,medium,1,0.2
+#542,52,Female,Suburban,105751,Technology,0,146,3560,Electronics,56,12,False,low,2,0.0
+#543,52,Male,Rural,111353,Food,9,77,3818,Books,577,7,True,medium,1,0.8181818181818182
+#544,53,Male,Suburban,110301,Technology,4,90,1165,Health & Beauty,268,17,True,low,2,0.17391304347826086
+#545,35,Female,Urban,115648,Travel,0,26,4871,Home & Kitchen,69,1,True,low,2,0.0
+#546,56,Male,Rural,45556,Fashion,0,126,382,Home & Kitchen,449,26,True,high_activity,0,0.0
+#547,49,Male,Suburban,79042,Sports,1,59,1181,Apparel,257,15,False,medium,1,0.125
+#548,41,Male,Urban,38099,Fashion,3,121,3985,Health & Beauty,490,33,True,high_activity,0,0.6
+#549,40,Female,Rural,129089,Sports,5,103,2981,Home & Kitchen,49,37,False,high_activity,0,1.05
+#550,49,Male,Urban,65096,Travel,7,177,2684,Home & Kitchen,316,47,True,medium,1,0.4375
+#551,54,Female,Rural,91986,Technology,2,195,3070,Apparel,413,31,False,medium,1,0.2222222222222222
+#552,29,Female,Suburban,33230,Food,0,94,1252,Books,434,35,True,medium,1,0.0
+#553,30,Male,Urban,49009,Travel,2,158,3597,Home & Kitchen,2,1,False,low,2,0.08695652173913043
+#554,40,Male,Rural,90969,Fashion,2,155,1047,Electronics,145,8,True,low,2,0.08695652173913043
+#555,42,Male,Urban,53866,Food,4,192,4860,Electronics,366,12,True,low,2,0.21052631578947367
+#556,52,Female,Urban,125400,Technology,3,166,1817,Books,420,19,True,medium,1,0.1875
+#557,58,Male,Suburban,104246,Travel,3,161,166,Health & Beauty,573,25,True,low,2,0.16666666666666666
+#558,47,Male,Urban,96975,Food,8,83,736,Apparel,561,32,False,churn_risk,3,0.26666666666666666
+#559,34,Male,Rural,61855,Travel,6,118,413,Electronics,444,12,False,medium,1,0.4
+#560,37,Male,Rural,101557,Travel,3,154,3497,Electronics,434,13,True,medium,1,0.2
+#561,42,Male,Rural,26416,Technology,2,27,664,Books,555,28,False,low,2,0.10526315789473684
+#562,39,Female,Rural,92516,Sports,5,51,1701,Health & Beauty,57,1,True,low,2,0.23809523809523808
+#563,30,Female,Suburban,75915,Food,2,110,925,Health & Beauty,562,6,True,low,2,0.10526315789473684
+#564,36,Male,Urban,38058,Technology,5,54,3770,Books,178,8,False,medium,1,0.29411764705882354
+#565,53,Male,Suburban,96637,Travel,8,91,1125,Electronics,293,4,False,high_activity,0,1.05
+#566,29,Male,Urban,60718,Technology,5,26,2351,Apparel,46,5,False,low,2,0.20833333333333334
+#567,58,Male,Urban,52602,Sports,3,82,4857,Electronics,170,25,True,churn_risk,3,0.10714285714285714
+#568,36,Female,Urban,94658,Food,4,23,904,Health & Beauty,271,22,True,medium,1,0.3333333333333333
+#569,29,Male,Suburban,98112,Sports,5,186,2551,Electronics,417,28,False,medium,1,0.3125
+#570,26,Female,Urban,78067,Fashion,2,166,4731,Apparel,139,39,True,medium,1,0.15384615384615385
+#571,24,Female,Suburban,47516,Food,7,141,1491,Home & Kitchen,247,23,False,medium,1,0.7777777777777778
+#572,45,Male,Rural,149295,Sports,3,91,1335,Electronics,148,4,False,low,2,0.13043478260869565
+#573,31,Female,Rural,107969,Travel,7,157,4132,Books,230,4,False,low,2,0.3333333333333333
+#574,48,Female,Urban,21089,Food,9,129,3380,Home & Kitchen,374,47,False,medium,1,1.05
+#575,36,Female,Suburban,57346,Food,9,129,4823,Books,80,21,False,high_activity,0,1.05
+#576,64,Female,Rural,94663,Technology,2,56,4944,Books,65,37,False,churn_risk,3,0.06896551724137931
+#577,33,Male,Suburban,30487,Travel,9,116,3649,Books,88,41,True,churn_risk,3,0.36
+#578,22,Male,Suburban,20155,Fashion,6,117,4300,Electronics,88,2,True,churn_risk,3,0.2222222222222222
+#579,52,Female,Urban,143950,Sports,8,18,4241,Health & Beauty,204,7,False,medium,1,0.5714285714285714
+#580,29,Male,Rural,87494,Technology,3,88,1454,Home & Kitchen,382,49,False,medium,1,0.21428571428571427
+#581,42,Male,Urban,96229,Sports,7,164,1936,Apparel,476,16,False,high_activity,0,1.05
+#582,38,Male,Urban,124648,Fashion,2,24,2992,Health & Beauty,573,17,True,medium,1,0.3333333333333333
+#583,53,Male,Rural,58547,Fashion,6,28,2596,Electronics,539,20,False,low,2,0.3333333333333333
+#584,40,Male,Rural,48795,Food,2,99,2683,Books,214,23,False,medium,1,0.2857142857142857
+#585,33,Female,Suburban,75296,Fashion,6,189,2658,Apparel,74,34,False,high_activity,0,1.05
+#586,56,Male,Rural,41447,Sports,9,35,3718,Home & Kitchen,61,11,True,high_activity,0,1.05
+#587,62,Male,Suburban,56598,Travel,9,163,1659,Health & Beauty,543,34,False,low,2,0.391304347826087
+#588,59,Male,Suburban,61814,Travel,5,163,1607,Health & Beauty,219,33,True,churn_risk,3,0.18518518518518517
+#589,56,Male,Suburban,110751,Food,1,183,4171,Apparel,12,26,True,medium,1,0.08333333333333333
+#590,31,Female,Rural,145118,Sports,2,101,2163,Electronics,415,2,False,medium,1,0.2222222222222222
+#591,48,Female,Urban,95330,Sports,5,186,3742,Home & Kitchen,32,23,True,medium,1,0.38461538461538464
+#592,22,Female,Suburban,141347,Fashion,3,91,2100,Apparel,160,41,True,medium,1,0.3333333333333333
+#593,52,Female,Urban,118745,Sports,5,190,1394,Books,237,22,True,medium,1,0.4166666666666667
+#594,40,Male,Urban,107960,Technology,0,140,4165,Home & Kitchen,181,34,False,low,2,0.0
+#595,46,Female,Rural,83278,Fashion,9,51,2852,Health & Beauty,558,15,True,low,2,0.42857142857142855
+#596,60,Male,Urban,75077,Technology,0,28,1853,Apparel,341,10,False,medium,1,0.0
+#597,28,Male,Urban,132782,Food,2,26,4310,Health & Beauty,458,15,False,churn_risk,3,0.06666666666666667
+#598,35,Male,Rural,142046,Travel,7,170,1703,Health & Beauty,80,42,False,medium,1,0.7777777777777778
+#599,64,Male,Suburban,122932,Food,7,85,1422,Health & Beauty,473,29,True,churn_risk,3,0.25925925925925924
+#600,29,Male,Urban,91906,Travel,3,186,2541,Electronics,112,23,False,low,2,0.16666666666666666
+#601,26,Female,Rural,29528,Food,5,193,1198,Health & Beauty,292,17,True,low,2,0.23809523809523808
+#602,27,Female,Urban,113812,Sports,7,72,1605,Books,383,9,True,low,2,0.3333333333333333
+#603,61,Female,Urban,70100,Technology,6,140,1226,Books,17,36,True,low,2,0.25
+#604,34,Female,Suburban,129869,Travel,6,116,396,Home & Kitchen,493,9,True,medium,1,0.35294117647058826
+#605,55,Male,Urban,28179,Fashion,3,58,3149,Health & Beauty,331,16,False,medium,1,0.2
+#606,24,Female,Rural,68781,Technology,8,64,2325,Health & Beauty,486,36,False,medium,1,0.6666666666666666
+#607,63,Male,Urban,75267,Fashion,9,163,4454,Apparel,406,48,True,medium,1,1.05
+#608,30,Female,Suburban,102379,Technology,5,108,3887,Electronics,117,33,False,medium,1,0.29411764705882354
+#609,57,Male,Suburban,43952,Technology,2,61,2196,Home & Kitchen,555,31,False,medium,1,0.14285714285714285
+#610,59,Male,Rural,73798,Food,4,109,3709,Health & Beauty,115,6,False,churn_risk,3,0.14285714285714285
+#611,26,Female,Suburban,118696,Travel,4,126,2308,Apparel,549,10,True,medium,1,0.25
+#612,44,Male,Urban,130434,Travel,4,127,275,Electronics,547,16,False,churn_risk,3,0.16
+#613,19,Male,Suburban,70939,Technology,7,16,2602,Home & Kitchen,336,4,True,medium,1,0.4117647058823529
+#614,22,Female,Rural,49516,Sports,8,55,4099,Home & Kitchen,336,22,False,churn_risk,3,0.2857142857142857
+#615,46,Male,Suburban,76526,Sports,8,55,1767,Health & Beauty,147,13,True,low,2,0.36363636363636365
+#616,54,Female,Suburban,30449,Fashion,5,109,4471,Home & Kitchen,122,16,True,low,2,0.20833333333333334
+#617,55,Female,Suburban,70290,Fashion,5,153,2645,Apparel,81,29,True,churn_risk,3,0.2
+#618,36,Female,Rural,146688,Food,8,161,775,Home & Kitchen,375,6,False,medium,1,0.8
+#619,25,Male,Suburban,106661,Technology,3,198,1923,Books,570,26,True,high_activity,0,0.75
+#620,62,Male,Suburban,92954,Fashion,5,63,1456,Apparel,63,11,False,low,2,0.25
+#621,18,Male,Urban,42746,Fashion,3,71,3172,Electronics,504,24,True,low,2,0.14285714285714285
+#622,39,Female,Rural,87990,Technology,0,138,3359,Electronics,449,29,False,medium,1,0.0
+#623,34,Male,Suburban,78810,Food,6,58,646,Health & Beauty,428,3,True,medium,1,0.5454545454545454
+#624,24,Female,Rural,138362,Fashion,9,34,2183,Health & Beauty,427,10,False,low,2,0.5
+#625,42,Female,Suburban,103297,Food,5,19,2140,Books,421,1,True,medium,1,0.3125
+#626,62,Male,Suburban,35223,Travel,8,127,4634,Electronics,322,43,True,low,2,0.3333333333333333
+#627,21,Female,Suburban,92237,Food,6,153,1852,Electronics,166,26,True,churn_risk,3,0.23076923076923078
+#628,53,Male,Urban,22597,Sports,6,195,1715,Electronics,597,12,False,medium,1,0.6666666666666666
+#629,23,Male,Urban,85677,Sports,1,166,1949,Electronics,461,14,True,medium,1,0.0625
+#630,48,Male,Urban,22659,Food,8,101,2742,Home & Kitchen,459,25,True,low,2,0.36363636363636365
+#631,36,Male,Rural,106516,Sports,9,143,1700,Apparel,189,8,True,medium,1,0.6
+#632,61,Male,Rural,94567,Travel,8,153,3496,Apparel,464,43,True,low,2,0.38095238095238093
+#633,56,Female,Urban,35037,Technology,5,157,4502,Books,379,4,False,churn_risk,3,0.1724137931034483
+#634,44,Female,Rural,146498,Sports,2,89,3705,Home & Kitchen,2,28,True,medium,1,0.25
+#635,27,Female,Suburban,66738,Sports,0,80,3899,Electronics,364,7,True,low,2,0.0
+#636,43,Male,Suburban,123965,Food,3,87,718,Electronics,72,10,False,low,2,0.125
+#637,36,Male,Suburban,91678,Travel,2,52,1232,Health & Beauty,427,36,False,medium,1,0.15384615384615385
+#638,56,Male,Urban,32109,Technology,0,163,2215,Health & Beauty,170,2,False,low,2,0.0
+#639,20,Female,Rural,42010,Food,2,99,2439,Books,205,26,True,low,2,0.1111111111111111
+#640,62,Male,Urban,28787,Food,3,87,2839,Electronics,337,14,False,medium,1,0.2727272727272727
+#641,30,Female,Rural,128400,Travel,7,170,4376,Books,472,16,False,churn_risk,3,0.23333333333333334
+#642,45,Female,Suburban,28472,Technology,8,35,1587,Home & Kitchen,195,43,False,low,2,0.4
+#643,37,Male,Urban,135111,Travel,2,130,1657,Apparel,275,42,True,medium,1,0.13333333333333333
+#644,45,Male,Rural,43383,Technology,5,54,2213,Electronics,7,17,True,medium,1,0.4166666666666667
+#645,25,Female,Rural,81709,Travel,9,72,1144,Home & Kitchen,566,46,True,high_activity,0,1.05
+#646,58,Male,Suburban,89785,Food,4,189,2531,Electronics,573,22,False,low,2,0.21052631578947367
+#647,56,Female,Urban,133253,Food,5,77,1682,Health & Beauty,599,4,True,medium,1,0.625
+#648,18,Male,Urban,54518,Fashion,3,163,1408,Books,178,19,False,medium,1,0.23076923076923078
+#649,20,Male,Urban,73909,Sports,9,11,701,Health & Beauty,242,2,False,churn_risk,3,0.3333333333333333
+#650,30,Female,Suburban,38351,Travel,5,151,1720,Apparel,203,39,False,high_activity,0,1.05
+#651,45,Male,Urban,89624,Fashion,6,117,4980,Health & Beauty,543,9,True,churn_risk,3,0.21428571428571427
+#652,42,Female,Suburban,73330,Sports,8,39,4866,Electronics,462,19,False,low,2,0.38095238095238093
+#653,50,Male,Suburban,142477,Travel,9,58,200,Health & Beauty,80,16,False,low,2,0.47368421052631576
+#654,55,Female,Suburban,35282,Technology,6,149,4371,Electronics,523,25,True,medium,1,0.8571428571428571
+#655,23,Female,Rural,104866,Sports,5,53,337,Apparel,417,48,False,churn_risk,3,0.2
+#656,61,Male,Urban,127945,Food,0,170,4125,Health & Beauty,384,18,False,medium,1,0.0
+#657,62,Female,Urban,41778,Fashion,1,22,3018,Books,391,23,False,low,2,0.047619047619047616
+#658,49,Male,Suburban,44264,Sports,0,87,2642,Books,126,21,True,medium,1,0.0
+#659,62,Male,Suburban,79675,Sports,8,135,2103,Books,494,11,False,medium,1,1.05
+#660,64,Male,Urban,25075,Food,9,107,1637,Health & Beauty,47,39,True,low,2,0.42857142857142855
+#661,38,Female,Suburban,95948,Travel,9,35,854,Health & Beauty,476,41,True,high_activity,0,1.05
+#662,33,Female,Urban,68454,Technology,8,158,3468,Health & Beauty,464,4,False,medium,1,1.05
+#663,38,Male,Rural,48365,Food,6,165,2358,Electronics,123,25,False,churn_risk,3,0.23076923076923078
+#664,28,Male,Suburban,92766,Technology,1,57,3765,Apparel,474,32,False,medium,1,0.1111111111111111
+#665,54,Female,Urban,68200,Travel,5,177,4335,Books,134,30,False,medium,1,0.5555555555555556
+#666,53,Male,Suburban,31002,Sports,3,75,640,Electronics,562,45,True,medium,1,0.3333333333333333
+#667,52,Male,Urban,33947,Technology,0,96,369,Books,23,26,True,medium,1,0.0
+#668,36,Female,Urban,99222,Fashion,0,88,3560,Electronics,566,36,False,churn_risk,3,0.0
+#669,37,Male,Suburban,114840,Fashion,4,32,3508,Health & Beauty,235,34,True,low,2,0.16666666666666666
+#670,35,Female,Rural,136219,Food,1,90,605,Books,59,9,False,medium,1,0.1111111111111111
+#671,64,Male,Urban,98610,Travel,3,57,1229,Health & Beauty,164,12,False,medium,1,0.25
+#672,58,Female,Urban,72142,Food,0,133,2179,Books,216,2,False,medium,1,0.0
+#673,31,Male,Urban,76307,Food,3,139,3245,Home & Kitchen,183,38,False,medium,1,0.3333333333333333
+#674,32,Male,Rural,24493,Food,5,93,3342,Electronics,569,5,True,churn_risk,3,0.16666666666666666
+#675,48,Female,Rural,144023,Fashion,9,29,461,Home & Kitchen,90,5,True,churn_risk,3,0.36
+#676,18,Male,Suburban,70085,Fashion,3,196,3820,Electronics,311,22,False,churn_risk,3,0.10344827586206896
+#677,20,Female,Rural,54228,Food,0,55,1556,Apparel,557,5,False,medium,1,0.0
+#678,33,Male,Suburban,99676,Fashion,6,140,4167,Books,257,4,True,medium,1,0.75
+#679,40,Female,Suburban,71875,Travel,1,192,4295,Apparel,533,9,True,churn_risk,3,0.034482758620689655
+#680,28,Female,Rural,51655,Food,8,21,1781,Apparel,533,29,True,low,2,0.4444444444444444
+#681,29,Female,Suburban,63472,Fashion,2,49,1152,Electronics,52,22,False,high_activity,0,0.4
+#682,27,Female,Rural,69437,Technology,7,75,2609,Home & Kitchen,338,27,True,churn_risk,3,0.23333333333333334
+#683,49,Male,Suburban,69416,Food,7,109,4827,Health & Beauty,171,10,False,medium,1,0.5
+#684,33,Male,Rural,79711,Food,2,87,781,Electronics,67,16,False,high_activity,0,0.4
+#685,25,Female,Rural,26816,Travel,3,25,4032,Health & Beauty,300,42,True,medium,1,0.5
+#686,55,Female,Suburban,97175,Sports,1,92,2229,Apparel,232,42,False,churn_risk,3,0.037037037037037035
+#687,29,Female,Urban,84307,Sports,3,171,4949,Health & Beauty,68,10,True,low,2,0.13043478260869565
+#688,41,Male,Suburban,132728,Travel,8,53,4116,Home & Kitchen,506,6,False,high_activity,0,1.05
+#689,45,Male,Rural,66733,Travel,1,143,3402,Electronics,28,49,False,low,2,0.05263157894736842
+#690,25,Male,Urban,148202,Travel,2,109,819,Home & Kitchen,51,5,False,medium,1,0.2857142857142857
+#691,45,Male,Suburban,115028,Sports,3,31,174,Home & Kitchen,260,6,False,churn_risk,3,0.12
+#692,53,Female,Suburban,136450,Travel,4,27,1393,Electronics,591,47,False,churn_risk,3,0.16
+#693,43,Female,Suburban,31240,Fashion,0,21,2022,Home & Kitchen,586,25,False,low,2,0.0
+#694,25,Female,Urban,118234,Food,6,189,4257,Books,184,4,True,low,2,0.2608695652173913
+#695,45,Male,Rural,112493,Food,9,132,419,Books,23,40,True,high_activity,0,1.05
+#696,45,Male,Suburban,145149,Technology,6,126,2249,Books,129,48,False,low,2,0.25
+#697,54,Male,Suburban,118344,Technology,8,60,1552,Health & Beauty,291,32,True,medium,1,0.6666666666666666
+#698,58,Female,Suburban,91363,Food,3,80,1655,Home & Kitchen,501,35,False,churn_risk,3,0.10344827586206896
+#699,53,Female,Suburban,52762,Fashion,5,57,4307,Electronics,186,10,True,medium,1,0.3333333333333333
+#700,44,Male,Suburban,28259,Sports,1,28,3132,Electronics,479,34,True,medium,1,0.16666666666666666
+#701,34,Female,Rural,70139,Sports,3,15,560,Health & Beauty,571,36,False,medium,1,0.42857142857142855
+#702,26,Male,Rural,148775,Fashion,1,93,986,Electronics,492,6,True,medium,1,0.09090909090909091
+#703,50,Male,Suburban,34849,Sports,9,164,3633,Books,513,43,False,medium,1,1.0
+#704,37,Female,Urban,101768,Travel,4,62,4036,Home & Kitchen,67,46,True,medium,1,0.26666666666666666
+#705,30,Male,Rural,126108,Food,6,116,1215,Electronics,467,16,False,churn_risk,3,0.24
+#706,45,Female,Urban,109709,Food,0,110,1175,Electronics,285,19,True,high_activity,0,0.0
+#707,46,Male,Rural,74869,Fashion,9,57,3976,Apparel,417,34,False,medium,1,0.6923076923076923
+#708,30,Female,Suburban,146888,Sports,9,144,4715,Apparel,100,25,True,medium,1,0.5294117647058824
+#709,63,Female,Rural,83095,Technology,6,196,2024,Apparel,189,31,False,churn_risk,3,0.20689655172413793
+#710,52,Female,Suburban,137886,Technology,9,78,1026,Home & Kitchen,388,49,True,low,2,0.375
+#711,23,Male,Rural,90910,Sports,5,20,4752,Books,241,41,False,low,2,0.2777777777777778
+#712,35,Male,Suburban,106710,Technology,5,152,2381,Books,417,17,True,high_activity,0,1.05
+#713,22,Female,Suburban,43567,Fashion,7,140,1155,Books,176,47,False,low,2,0.2916666666666667
+#714,64,Female,Suburban,55292,Fashion,7,131,4774,Home & Kitchen,387,30,True,medium,1,0.6363636363636364
+#715,42,Male,Suburban,94813,Sports,5,78,641,Home & Kitchen,471,39,False,churn_risk,3,0.19230769230769232
+#716,19,Male,Urban,117136,Technology,2,32,2261,Apparel,233,31,False,low,2,0.08333333333333333
+#717,27,Male,Suburban,71631,Fashion,4,190,2351,Electronics,452,19,False,medium,1,0.36363636363636365
+#718,47,Female,Urban,29885,Fashion,1,46,1152,Health & Beauty,277,35,False,low,2,0.045454545454545456
+#719,62,Male,Urban,79659,Travel,4,18,4669,Health & Beauty,229,29,True,churn_risk,3,0.16
+#720,22,Male,Suburban,74306,Travel,8,24,2844,Electronics,171,1,True,high_activity,0,1.05
+#721,50,Female,Urban,86314,Fashion,9,140,3969,Apparel,213,4,True,medium,1,0.9
+#722,18,Male,Rural,85087,Sports,0,102,4581,Electronics,282,28,False,low,2,0.0
+#723,35,Male,Suburban,49165,Food,9,26,4257,Electronics,41,18,False,medium,1,0.6428571428571429
+#724,49,Male,Urban,78929,Food,4,163,4710,Health & Beauty,122,26,False,churn_risk,3,0.15384615384615385
+#725,64,Female,Suburban,87028,Fashion,5,158,4625,Apparel,227,40,False,medium,1,0.29411764705882354
+#726,28,Female,Suburban,115998,Fashion,6,81,4775,Home & Kitchen,294,19,False,low,2,0.3157894736842105
+#727,38,Female,Suburban,69812,Fashion,8,158,1660,Health & Beauty,267,6,True,low,2,0.4
+#728,43,Female,Urban,70500,Sports,5,130,3862,Home & Kitchen,541,1,True,medium,1,0.38461538461538464
+#729,42,Female,Rural,99151,Travel,4,20,1264,Apparel,451,8,True,medium,1,0.4444444444444444
+#730,39,Female,Rural,78643,Fashion,6,175,2822,Electronics,449,33,False,low,2,0.3333333333333333
+#731,44,Female,Urban,64900,Fashion,0,81,2458,Books,61,43,False,medium,1,0.0
+#732,30,Male,Suburban,62946,Technology,4,115,570,Books,502,21,False,medium,1,0.36363636363636365
+#733,50,Male,Urban,27851,Sports,1,134,1516,Apparel,147,24,False,medium,1,0.0625
+#734,51,Female,Urban,36288,Fashion,3,44,1568,Books,334,25,False,medium,1,0.1875
+#735,58,Male,Urban,92692,Technology,6,128,908,Home & Kitchen,142,47,False,low,2,0.25
+#736,52,Male,Suburban,87580,Food,4,23,271,Books,44,43,False,medium,1,0.5
+#737,18,Female,Urban,27368,Fashion,5,23,4226,Apparel,144,19,True,medium,1,0.35714285714285715
+#738,38,Male,Suburban,105436,Fashion,1,19,4242,Apparel,333,29,True,low,2,0.05555555555555555
+#739,23,Male,Urban,116136,Technology,2,149,4325,Home & Kitchen,497,10,False,medium,1,0.2
+#740,45,Male,Rural,66403,Sports,6,47,2499,Books,396,12,False,medium,1,0.6666666666666666
+#741,34,Male,Urban,111170,Fashion,1,117,1745,Books,55,33,False,low,2,0.047619047619047616
+#742,22,Male,Urban,29168,Food,5,128,157,Electronics,307,7,True,churn_risk,3,0.18518518518518517
+#743,48,Female,Rural,106497,Fashion,4,43,1229,Health & Beauty,423,17,True,churn_risk,3,0.14285714285714285
+#744,22,Female,Suburban,69879,Food,9,178,1453,Apparel,417,10,False,low,2,0.4090909090909091
+#745,55,Female,Suburban,79871,Travel,0,19,867,Electronics,325,31,True,low,2,0.0
+#746,20,Male,Urban,129632,Travel,9,131,3995,Apparel,80,6,True,medium,1,0.6428571428571429
+#747,40,Female,Rural,131623,Food,3,154,782,Electronics,31,17,True,medium,1,0.17647058823529413
+#748,54,Male,Suburban,109388,Sports,1,154,3554,Health & Beauty,112,37,False,medium,1,0.1
+#749,54,Male,Urban,118646,Fashion,3,199,2108,Electronics,558,18,True,medium,1,0.23076923076923078
+#750,27,Male,Rural,52174,Fashion,0,124,3242,Apparel,564,26,True,medium,1,0.0
+#751,27,Male,Suburban,119751,Travel,1,10,1890,Books,472,49,False,medium,1,0.14285714285714285
+#752,36,Female,Suburban,112491,Food,7,21,1577,Apparel,74,16,False,low,2,0.35
+#753,34,Female,Rural,26581,Fashion,5,112,985,Home & Kitchen,553,8,True,churn_risk,3,0.1724137931034483
+#754,38,Male,Rural,130155,Fashion,1,13,4006,Home & Kitchen,479,24,False,medium,1,0.125
+#755,31,Female,Rural,91853,Sports,5,179,4592,Home & Kitchen,589,13,True,churn_risk,3,0.19230769230769232
+#756,26,Male,Rural,84046,Technology,9,150,1638,Home & Kitchen,387,29,True,high_activity,0,1.05
+#757,63,Female,Urban,69678,Travel,8,107,2173,Health & Beauty,564,32,False,medium,1,0.47058823529411764
+#758,18,Female,Rural,128392,Travel,6,115,412,Books,433,24,False,low,2,0.3157894736842105
+#759,62,Male,Suburban,131250,Technology,8,94,910,Books,412,16,True,medium,1,0.47058823529411764
+#760,30,Female,Suburban,46649,Fashion,4,130,2335,Apparel,467,11,False,low,2,0.16666666666666666
+#761,21,Male,Urban,147795,Sports,6,141,2957,Electronics,599,32,False,medium,1,0.75
+#762,18,Female,Suburban,108668,Sports,6,91,2863,Apparel,248,6,True,high_activity,0,1.05
+#763,57,Male,Suburban,102325,Travel,2,28,2132,Apparel,581,35,True,churn_risk,3,0.07142857142857142
+#764,49,Male,Rural,34567,Sports,6,139,1607,Apparel,120,33,True,churn_risk,3,0.23076923076923078
+#765,51,Female,Suburban,100404,Technology,0,21,4645,Apparel,67,18,True,medium,1,0.0
+#766,45,Female,Urban,109906,Fashion,8,90,2670,Books,573,37,True,medium,1,0.5714285714285714
+#767,48,Male,Rural,128069,Technology,9,83,1994,Electronics,327,13,True,medium,1,0.6428571428571429
+#768,25,Female,Rural,116019,Food,5,107,2805,Apparel,470,10,False,low,2,0.2777777777777778
+#769,56,Female,Urban,81944,Travel,4,15,696,Books,493,37,False,low,2,0.2222222222222222
+#770,43,Male,Rural,138428,Sports,6,145,2247,Apparel,286,26,True,medium,1,1.0
+#771,51,Male,Rural,98002,Food,4,134,715,Home & Kitchen,312,46,False,medium,1,0.5714285714285714
+#772,20,Female,Urban,48803,Sports,9,60,1047,Apparel,309,17,False,low,2,0.45
+#773,29,Male,Rural,38230,Fashion,4,20,4751,Apparel,97,1,True,medium,1,0.2857142857142857
+#774,18,Male,Urban,37862,Fashion,9,194,4473,Health & Beauty,113,25,False,churn_risk,3,0.34615384615384615
+#775,61,Male,Urban,63355,Fashion,6,136,3864,Home & Kitchen,456,34,False,churn_risk,3,0.20689655172413793
+#776,22,Female,Suburban,51259,Sports,9,149,2113,Electronics,463,39,True,churn_risk,3,0.3333333333333333
+#777,47,Female,Suburban,119075,Food,6,82,3797,Apparel,132,10,False,medium,1,0.4
+#778,47,Male,Rural,107445,Fashion,2,11,590,Electronics,121,20,False,low,2,0.08695652173913043
+#779,34,Female,Rural,50795,Food,2,17,4450,Home & Kitchen,197,7,True,high_activity,0,0.4
+#780,64,Male,Urban,134604,Sports,9,148,2528,Apparel,482,16,False,churn_risk,3,0.3103448275862069
+#781,40,Female,Rural,28770,Food,2,133,641,Health & Beauty,39,37,False,medium,1,0.25
+#782,32,Male,Urban,31093,Sports,5,62,1387,Books,566,29,False,medium,1,0.5555555555555556
+#783,54,Male,Urban,66571,Sports,5,19,1733,Health & Beauty,512,12,True,churn_risk,3,0.19230769230769232
+#784,38,Female,Rural,20193,Travel,2,121,3026,Health & Beauty,474,17,True,medium,1,0.14285714285714285
+#785,31,Male,Urban,120311,Sports,2,17,1452,Books,161,48,False,churn_risk,3,0.07142857142857142
+#786,19,Female,Suburban,37569,Sports,7,45,4476,Books,289,20,False,medium,1,1.0
+#787,28,Female,Rural,137082,Technology,7,115,1398,Books,200,26,True,medium,1,1.0
+#788,56,Male,Suburban,31190,Fashion,6,23,4968,Apparel,528,48,True,churn_risk,3,0.24
+#789,55,Male,Rural,82824,Travel,9,191,4067,Electronics,503,19,False,churn_risk,3,0.3103448275862069
+#790,51,Female,Urban,62752,Travel,3,95,4523,Electronics,248,47,True,low,2,0.13636363636363635
+#791,55,Male,Rural,52327,Travel,3,158,2358,Books,383,12,False,high_activity,0,0.75
+#792,51,Male,Suburban,62070,Technology,2,59,4747,Health & Beauty,218,21,False,churn_risk,3,0.06896551724137931
+#793,35,Male,Urban,105925,Sports,4,176,2173,Home & Kitchen,87,42,True,high_activity,0,1.0
+#794,47,Male,Rural,60197,Fashion,2,29,801,Books,82,34,True,medium,1,0.14285714285714285
+#795,32,Male,Rural,22261,Food,7,96,2019,Health & Beauty,62,7,False,low,2,0.30434782608695654
+#796,44,Female,Rural,138424,Sports,6,144,2560,Health & Beauty,500,45,False,high_activity,0,1.05
+#797,51,Female,Suburban,113905,Technology,2,146,4362,Apparel,42,35,True,medium,1,0.11764705882352941
+#798,55,Male,Suburban,46512,Sports,8,138,4364,Apparel,12,15,False,low,2,0.34782608695652173
+#799,50,Male,Rural,26716,Sports,4,163,4424,Electronics,115,1,True,churn_risk,3,0.13333333333333333
+#800,41,Male,Urban,106795,Technology,8,175,466,Electronics,218,26,True,medium,1,1.05
+#801,32,Female,Urban,48933,Travel,6,47,627,Home & Kitchen,106,35,True,medium,1,0.6666666666666666
+#802,47,Male,Suburban,127225,Travel,6,198,4986,Home & Kitchen,528,25,True,low,2,0.25
+#803,59,Female,Urban,24378,Fashion,5,53,3818,Home & Kitchen,472,42,True,medium,1,0.5555555555555556
+#804,34,Female,Suburban,60583,Fashion,1,95,3709,Home & Kitchen,387,15,False,churn_risk,3,0.038461538461538464
+#805,22,Female,Rural,132082,Travel,8,53,4035,Health & Beauty,226,22,True,medium,1,1.05
+#806,46,Male,Suburban,105371,Food,5,83,4719,Health & Beauty,481,6,True,medium,1,0.3333333333333333
+#807,21,Female,Suburban,49033,Sports,7,128,2253,Electronics,408,15,True,high_activity,0,1.05
+#808,27,Male,Rural,44000,Food,0,199,2008,Apparel,457,24,True,medium,1,0.0
+#809,34,Female,Urban,131032,Sports,4,131,3112,Apparel,21,21,True,high_activity,0,1.0
+#810,27,Male,Suburban,95868,Travel,0,143,4328,Books,203,7,True,churn_risk,3,0.0
+#811,34,Female,Suburban,62604,Fashion,9,154,3122,Health & Beauty,417,29,True,medium,1,0.6923076923076923
+#812,37,Male,Rural,88336,Fashion,7,60,3583,Home & Kitchen,416,32,False,low,2,0.3888888888888889
+#813,41,Female,Urban,115074,Food,7,47,2820,Home & Kitchen,448,32,False,churn_risk,3,0.25
+#814,22,Male,Suburban,115655,Fashion,0,161,1870,Books,512,5,False,churn_risk,3,0.0
+#815,51,Male,Rural,93869,Travel,8,60,4213,Apparel,85,4,False,medium,1,1.05
+#816,23,Male,Suburban,25410,Food,1,19,1877,Home & Kitchen,167,22,True,low,2,0.047619047619047616
+#817,19,Male,Rural,103375,Sports,8,129,4312,Apparel,384,18,False,churn_risk,3,0.3076923076923077
+#818,30,Female,Urban,76044,Fashion,0,158,897,Books,468,35,True,medium,1,0.0
+#819,60,Female,Urban,83315,Technology,9,79,3315,Apparel,72,17,False,low,2,0.4090909090909091
+#820,60,Male,Urban,116055,Fashion,8,94,3888,Apparel,521,24,False,churn_risk,3,0.2962962962962963
+#821,28,Female,Urban,91344,Sports,3,66,3076,Apparel,473,2,True,low,2,0.14285714285714285
+#822,64,Male,Suburban,26796,Food,8,135,3837,Home & Kitchen,258,13,True,medium,1,1.0
+#823,40,Male,Suburban,106716,Sports,6,48,1811,Electronics,275,15,False,low,2,0.2608695652173913
+#824,33,Female,Urban,74245,Technology,5,42,852,Health & Beauty,20,5,False,high_activity,0,1.0
+#825,48,Male,Urban,63056,Travel,4,196,2569,Apparel,490,3,False,medium,1,0.2857142857142857
+#826,28,Male,Urban,37709,Fashion,8,27,4069,Apparel,490,37,False,medium,1,0.5714285714285714
+#827,33,Female,Suburban,139664,Food,1,193,1492,Apparel,326,37,True,medium,1,0.09090909090909091
+#828,25,Male,Urban,78557,Travel,1,66,2705,Electronics,529,37,False,low,2,0.05263157894736842
+#829,21,Male,Urban,37543,Sports,8,105,777,Books,89,3,False,low,2,0.4444444444444444
+#830,57,Male,Urban,57418,Food,2,57,205,Home & Kitchen,486,35,False,low,2,0.09523809523809523
+#831,21,Male,Rural,114611,Travel,7,51,3387,Electronics,350,23,False,low,2,0.3333333333333333
+#832,42,Female,Urban,123291,Food,8,36,4853,Apparel,84,28,False,medium,1,0.5714285714285714
+#833,20,Female,Rural,133504,Technology,7,83,2046,Electronics,387,30,True,low,2,0.3888888888888889
+#834,49,Female,Rural,123001,Technology,3,119,1195,Electronics,87,18,True,low,2,0.13043478260869565
+#835,20,Male,Urban,116038,Fashion,0,189,1882,Electronics,307,36,True,high_activity,0,0.0
+#836,44,Male,Rural,36724,Fashion,3,179,4641,Books,154,33,True,high_activity,0,1.05
+#837,46,Female,Urban,23828,Technology,8,41,3357,Health & Beauty,440,26,True,high_activity,0,1.05
+#838,49,Male,Suburban,136656,Food,1,35,2097,Home & Kitchen,264,48,False,medium,1,0.0625
+#839,36,Male,Suburban,37087,Technology,2,34,4969,Books,421,40,True,medium,1,0.14285714285714285
+#840,38,Male,Suburban,32605,Fashion,9,84,1661,Books,493,17,True,low,2,0.5
+#841,22,Male,Suburban,51337,Technology,7,32,4106,Health & Beauty,411,40,False,churn_risk,3,0.28
+#842,35,Female,Rural,25482,Technology,5,66,1775,Books,173,7,True,churn_risk,3,0.18518518518518517
+#843,45,Female,Urban,85333,Food,7,189,1222,Electronics,4,8,True,medium,1,0.7777777777777778
+#844,59,Female,Urban,112541,Travel,6,135,4081,Electronics,472,31,True,low,2,0.3157894736842105
+#845,39,Male,Urban,108296,Fashion,4,96,1401,Apparel,110,12,True,churn_risk,3,0.14285714285714285
+#846,38,Female,Suburban,70952,Food,8,40,1043,Books,37,48,False,medium,1,0.5714285714285714
+#847,23,Female,Suburban,25463,Technology,3,73,4650,Apparel,583,31,False,low,2,0.125
+#848,18,Male,Urban,132164,Technology,5,42,1045,Home & Kitchen,31,44,True,medium,1,0.3333333333333333
+#849,22,Male,Suburban,90448,Travel,1,11,700,Electronics,381,19,False,medium,1,0.1111111111111111
+#850,58,Female,Urban,24648,Fashion,1,27,2800,Home & Kitchen,268,10,True,medium,1,0.1111111111111111
+#851,29,Female,Urban,53623,Fashion,1,184,4920,Health & Beauty,11,39,False,churn_risk,3,0.03571428571428571
+#852,43,Female,Urban,79156,Sports,9,170,1517,Electronics,344,12,False,churn_risk,3,0.3333333333333333
+#853,63,Female,Urban,55634,Fashion,6,93,1624,Home & Kitchen,544,20,False,medium,1,0.375
+#854,51,Male,Urban,64602,Travel,1,44,3866,Health & Beauty,569,37,False,churn_risk,3,0.03571428571428571
+#855,31,Female,Urban,134598,Sports,1,188,350,Home & Kitchen,166,48,False,medium,1,0.07142857142857142
+#856,43,Female,Urban,69334,Sports,8,123,1644,Health & Beauty,342,41,False,medium,1,1.0
+#857,62,Male,Suburban,88648,Technology,6,155,178,Health & Beauty,482,7,False,medium,1,1.0
+#858,44,Female,Urban,42054,Technology,2,119,3223,Electronics,19,14,False,low,2,0.1111111111111111
+#859,26,Male,Urban,90028,Fashion,2,97,997,Apparel,184,11,False,churn_risk,3,0.06896551724137931
+#860,43,Male,Suburban,42207,Sports,6,81,4976,Health & Beauty,545,7,False,churn_risk,3,0.23076923076923078
+#861,64,Male,Suburban,100650,Technology,4,134,325,Health & Beauty,10,29,False,churn_risk,3,0.13333333333333333
+#862,39,Female,Suburban,119821,Travel,9,39,1309,Electronics,592,10,True,medium,1,0.5294117647058824
+#863,64,Female,Urban,101554,Technology,5,181,4998,Apparel,192,29,False,low,2,0.20833333333333334
+#864,47,Male,Rural,41386,Technology,7,62,4937,Books,320,9,True,high_activity,0,1.05
+#865,60,Female,Rural,103276,Sports,8,147,2278,Books,580,36,False,low,2,0.34782608695652173
+#866,34,Female,Suburban,79518,Sports,0,96,2779,Apparel,475,48,True,low,2,0.0
+#867,43,Male,Rural,72781,Food,2,189,2985,Home & Kitchen,427,10,True,low,2,0.1111111111111111
+#868,53,Male,Suburban,72780,Travel,6,186,2906,Electronics,59,19,True,medium,1,0.75
+#869,18,Female,Urban,81440,Sports,5,148,803,Apparel,436,31,False,medium,1,0.35714285714285715
+#870,25,Male,Rural,64199,Fashion,6,195,2644,Books,97,17,False,low,2,0.3157894736842105
+#871,52,Female,Urban,81035,Travel,7,173,2470,Health & Beauty,496,9,False,churn_risk,3,0.23333333333333334
+#872,32,Female,Rural,28210,Travel,5,170,3381,Books,278,45,False,medium,1,0.3333333333333333
+#873,64,Female,Urban,64363,Sports,2,184,4810,Health & Beauty,265,33,True,low,2,0.10526315789473684
+#874,39,Female,Rural,131175,Travel,1,22,428,Electronics,9,34,False,medium,1,0.07142857142857142
+#875,31,Male,Urban,98279,Sports,6,49,4328,Health & Beauty,457,45,False,medium,1,0.5
+#876,43,Male,Urban,80348,Technology,0,98,220,Apparel,273,24,False,low,2,0.0
+#877,45,Male,Rural,75284,Food,2,77,1064,Health & Beauty,8,9,False,low,2,0.09090909090909091
+#878,40,Male,Urban,127628,Technology,3,51,4324,Home & Kitchen,208,7,False,medium,1,0.17647058823529413
+#879,31,Female,Urban,129835,Sports,0,156,3775,Apparel,123,16,False,low,2,0.0
+#880,41,Female,Urban,92124,Sports,4,103,2176,Electronics,33,19,False,low,2,0.2222222222222222
+#881,19,Male,Rural,88847,Technology,9,28,432,Apparel,513,39,False,medium,1,1.0
+#882,62,Female,Rural,42432,Fashion,2,195,3468,Home & Kitchen,204,6,True,low,2,0.1
+#883,43,Female,Urban,146252,Fashion,1,32,1416,Electronics,518,11,True,low,2,0.047619047619047616
+#884,31,Female,Urban,84089,Fashion,2,63,1296,Books,517,12,False,medium,1,0.125
+#885,24,Male,Rural,75398,Sports,7,74,3270,Home & Kitchen,443,42,False,medium,1,0.7
+#886,20,Male,Rural,119291,Travel,5,149,1529,Electronics,592,13,False,low,2,0.23809523809523808
+#887,64,Male,Urban,23321,Sports,6,33,455,Health & Beauty,339,12,False,medium,1,0.5454545454545454
+#888,40,Female,Urban,101348,Travel,5,43,4334,Apparel,438,21,True,medium,1,0.38461538461538464
+#889,63,Male,Urban,57383,Technology,5,62,1626,Electronics,445,10,True,low,2,0.22727272727272727
+#890,60,Male,Suburban,133816,Food,2,145,3997,Apparel,136,20,False,low,2,0.08333333333333333
+#891,64,Male,Rural,98682,Travel,7,27,128,Health & Beauty,387,36,True,low,2,0.3333333333333333
+#892,62,Male,Suburban,143053,Fashion,6,66,1113,Electronics,25,28,True,high_activity,0,1.05
+#893,35,Male,Rural,99190,Sports,6,121,2802,Books,506,24,False,churn_risk,3,0.23076923076923078
+#894,55,Male,Rural,72893,Technology,5,14,927,Home & Kitchen,325,5,False,low,2,0.23809523809523808
+#895,52,Female,Rural,55820,Fashion,4,163,4546,Electronics,338,37,False,medium,1,0.4
+#896,32,Female,Rural,141262,Technology,9,167,2124,Health & Beauty,95,12,True,low,2,0.391304347826087
+#897,42,Male,Rural,86262,Food,7,191,398,Electronics,545,35,True,medium,1,0.4375
+#898,54,Male,Rural,23760,Sports,4,22,1965,Apparel,146,40,False,high_activity,0,1.05
+#899,45,Female,Rural,42190,Sports,8,92,4116,Electronics,231,2,False,medium,1,0.6153846153846154
+#900,27,Female,Suburban,87411,Food,8,38,2211,Books,495,41,True,high_activity,0,1.05
+#901,56,Male,Urban,43377,Sports,0,12,854,Electronics,38,45,True,medium,1,0.0
+#902,34,Male,Urban,66737,Travel,5,99,869,Home & Kitchen,425,39,False,high_activity,0,1.05
+#903,56,Male,Suburban,89569,Technology,6,113,3835,Electronics,437,42,True,medium,1,0.35294117647058826
+#904,39,Male,Suburban,58211,Fashion,2,132,1338,Apparel,368,9,False,medium,1,0.2
+#905,43,Female,Suburban,102909,Food,6,195,2313,Electronics,345,22,False,medium,1,0.375
+#906,61,Male,Suburban,23744,Travel,6,85,2006,Books,160,47,True,medium,1,0.46153846153846156
+#907,42,Male,Rural,145566,Fashion,1,139,1664,Health & Beauty,550,5,True,high_activity,0,0.5
+#908,34,Male,Urban,44995,Fashion,6,117,1318,Electronics,541,12,True,medium,1,0.42857142857142855
+#909,30,Male,Rural,36977,Food,0,165,4701,Electronics,144,1,False,medium,1,0.0
+#910,37,Female,Urban,149508,Travel,4,91,1457,Home & Kitchen,588,44,False,churn_risk,3,0.15384615384615385
+#911,42,Female,Urban,117938,Fashion,8,86,3939,Books,576,22,False,churn_risk,3,0.3076923076923077
+#912,21,Female,Suburban,54542,Fashion,6,11,1560,Health & Beauty,345,38,False,medium,1,0.6666666666666666
+#913,27,Male,Rural,30651,Travel,6,136,4085,Apparel,269,19,False,medium,1,0.6666666666666666
+#914,20,Male,Suburban,119239,Sports,1,144,1516,Electronics,268,16,False,churn_risk,3,0.03571428571428571
+#915,58,Female,Rural,98931,Fashion,7,35,2953,Health & Beauty,169,31,True,medium,1,0.5384615384615384
+#916,62,Male,Urban,115344,Technology,2,97,4956,Apparel,33,3,False,high_activity,0,1.0
+#917,35,Male,Suburban,122112,Travel,7,25,1528,Books,377,23,False,medium,1,0.5833333333333334
+#918,64,Female,Suburban,36715,Fashion,2,160,4478,Books,214,42,False,medium,1,0.2222222222222222
+#919,53,Female,Urban,64409,Food,9,177,4574,Health & Beauty,562,18,False,medium,1,0.8181818181818182
+#920,64,Female,Urban,44306,Technology,6,197,4393,Apparel,440,26,True,low,2,0.3
+#921,39,Female,Urban,39086,Fashion,1,82,3162,Books,492,13,False,medium,1,0.08333333333333333
+#922,51,Male,Suburban,34376,Technology,3,41,3171,Health & Beauty,393,18,True,medium,1,0.375
+#923,64,Male,Rural,81350,Technology,5,24,655,Books,489,3,True,medium,1,0.4166666666666667
+#924,25,Female,Suburban,91425,Sports,8,150,455,Books,29,23,False,low,2,0.4444444444444444
+#925,57,Male,Rural,123358,Technology,4,14,1663,Books,39,3,False,high_activity,0,1.05
+#926,61,Female,Suburban,56636,Sports,8,83,3600,Home & Kitchen,173,25,True,churn_risk,3,0.2962962962962963
+#927,36,Female,Suburban,106120,Travel,4,61,1140,Apparel,17,27,True,churn_risk,3,0.13333333333333333
+#928,59,Male,Urban,134889,Sports,9,86,2786,Health & Beauty,56,44,False,low,2,0.4090909090909091
+#929,58,Female,Rural,71649,Food,7,178,4574,Health & Beauty,226,27,True,low,2,0.3181818181818182
+#930,54,Male,Suburban,54610,Fashion,0,190,4875,Apparel,558,39,False,medium,1,0.0
+#931,23,Male,Suburban,30058,Travel,6,119,2653,Apparel,67,25,False,low,2,0.25
+#932,43,Male,Urban,144876,Travel,3,187,1879,Apparel,197,24,True,churn_risk,3,0.12
+#933,51,Male,Urban,148265,Food,4,152,175,Apparel,23,8,False,medium,1,0.5714285714285714
+#934,62,Female,Rural,94637,Sports,5,115,4426,Electronics,237,9,False,low,2,0.21739130434782608
+#935,23,Male,Suburban,98033,Fashion,4,136,3419,Health & Beauty,566,46,False,low,2,0.21052631578947367
+#936,54,Female,Rural,90194,Sports,0,16,2449,Electronics,138,37,True,medium,1,0.0
+#937,50,Female,Suburban,96917,Technology,8,49,2873,Books,473,30,True,medium,1,1.05
+#938,39,Female,Rural,84200,Sports,1,165,2362,Books,553,19,True,medium,1,0.07142857142857142
+#939,38,Female,Urban,125848,Travel,8,169,3329,Health & Beauty,229,16,False,low,2,0.4
+#940,23,Male,Suburban,126022,Fashion,9,108,2216,Books,317,24,True,low,2,0.391304347826087
+#941,23,Male,Rural,66619,Sports,1,152,492,Apparel,598,44,True,medium,1,0.1111111111111111
+#942,21,Female,Urban,37154,Fashion,8,94,1208,Electronics,561,21,True,medium,1,0.8
+#943,47,Female,Urban,39539,Fashion,5,74,4462,Apparel,201,36,False,low,2,0.2777777777777778
+#944,28,Male,Rural,145381,Technology,8,141,710,Books,258,40,False,high_activity,0,1.05
+#945,47,Female,Suburban,80058,Technology,5,20,2875,Electronics,480,39,True,low,2,0.25
+#946,48,Male,Suburban,82068,Travel,5,117,4098,Apparel,178,47,True,medium,1,0.4166666666666667
+#947,41,Female,Urban,97313,Food,1,35,772,Health & Beauty,123,6,True,churn_risk,3,0.04
+#948,26,Male,Suburban,119932,Fashion,7,198,3777,Apparel,342,5,False,low,2,0.3888888888888889
+#949,20,Female,Suburban,50373,Food,2,174,130,Books,171,14,True,low,2,0.09090909090909091
+#950,48,Female,Suburban,53154,Travel,6,160,1500,Electronics,59,45,False,low,2,0.3
+#951,57,Male,Urban,26031,Fashion,4,94,4171,Health & Beauty,465,42,False,high_activity,0,1.05
+#952,54,Female,Rural,113533,Fashion,2,177,716,Electronics,260,4,False,medium,1,0.2222222222222222
+#953,53,Female,Suburban,91975,Food,0,160,4734,Health & Beauty,373,8,True,low,2,0.0
+#954,41,Male,Urban,42785,Sports,7,132,2886,Electronics,95,24,True,medium,1,0.875
+#955,48,Female,Urban,98928,Technology,2,153,970,Books,125,11,False,churn_risk,3,0.06896551724137931
+#956,23,Male,Rural,138696,Sports,1,198,4296,Health & Beauty,41,17,False,churn_risk,3,0.03571428571428571
+#957,19,Male,Suburban,48669,Food,0,77,3704,Home & Kitchen,254,21,False,low,2,0.0
+#958,37,Female,Suburban,114475,Technology,3,113,1512,Electronics,7,26,False,medium,1,0.42857142857142855
+#959,45,Female,Rural,137154,Sports,7,89,2839,Electronics,471,43,True,low,2,0.35
+#960,28,Female,Rural,22282,Technology,2,168,1040,Apparel,511,48,True,churn_risk,3,0.08
+#961,21,Female,Urban,54624,Fashion,0,62,440,Health & Beauty,581,44,False,medium,1,0.0
+#962,32,Female,Urban,68438,Sports,3,115,3008,Home & Kitchen,69,45,False,churn_risk,3,0.10344827586206896
+#963,23,Female,Rural,109900,Technology,8,162,4233,Books,81,27,False,high_activity,0,1.05
+#964,47,Female,Suburban,87534,Technology,0,53,759,Apparel,542,16,True,medium,1,0.0
+#965,55,Male,Urban,51705,Technology,1,149,2133,Home & Kitchen,585,26,False,low,2,0.041666666666666664
+#966,19,Female,Urban,58244,Sports,8,99,1660,Health & Beauty,262,33,True,medium,1,1.05
+#967,32,Male,Suburban,94964,Travel,1,110,3557,Home & Kitchen,89,31,False,low,2,0.05
+#968,28,Female,Urban,57437,Sports,2,106,1756,Electronics,208,48,True,low,2,0.09523809523809523
+#969,25,Female,Suburban,97872,Food,6,18,3075,Electronics,213,47,True,high_activity,0,1.05
+#970,43,Male,Suburban,94878,Sports,2,21,1149,Apparel,266,6,False,low,2,0.08695652173913043
+#971,62,Female,Suburban,139006,Technology,8,78,553,Health & Beauty,293,44,True,churn_risk,3,0.2962962962962963
+#972,61,Female,Rural,125368,Fashion,5,191,1804,Health & Beauty,207,8,True,low,2,0.2777777777777778
+#973,22,Male,Rural,92982,Sports,2,191,2884,Home & Kitchen,333,7,True,medium,1,0.16666666666666666
+#974,23,Female,Rural,70583,Sports,8,37,918,Apparel,77,34,True,high_activity,0,1.05
+#975,43,Female,Suburban,58392,Technology,0,65,4968,Health & Beauty,288,44,False,churn_risk,3,0.0
+#976,21,Female,Suburban,27461,Fashion,9,108,112,Electronics,47,14,False,medium,1,0.6428571428571429
+#977,36,Male,Rural,120123,Fashion,2,119,4079,Home & Kitchen,200,16,False,low,2,0.09523809523809523
+#978,37,Female,Urban,30516,Food,0,86,1020,Books,427,43,False,churn_risk,3,0.0
+#979,50,Female,Suburban,99285,Sports,1,112,2518,Electronics,210,9,False,low,2,0.05555555555555555
+#980,37,Female,Urban,37514,Fashion,7,115,1414,Apparel,420,10,True,medium,1,0.7
+#981,29,Female,Urban,148657,Fashion,6,118,3777,Health & Beauty,154,17,True,high_activity,0,1.05
+#982,64,Male,Suburban,141251,Travel,1,121,2117,Electronics,522,12,True,low,2,0.041666666666666664
+#983,18,Male,Suburban,120962,Travel,1,67,1328,Books,415,6,True,churn_risk,3,0.034482758620689655
+#984,43,Female,Urban,56268,Fashion,8,87,4892,Books,353,19,False,medium,1,0.5333333333333333
+#985,31,Female,Urban,110486,Food,5,84,2534,Apparel,157,43,False,low,2,0.25
+#986,55,Male,Rural,120424,Fashion,4,51,2968,Electronics,261,41,True,churn_risk,3,0.14814814814814814
+#987,54,Male,Rural,56788,Technology,9,175,2615,Home & Kitchen,77,29,False,churn_risk,3,0.3103448275862069
+#988,28,Female,Suburban,95749,Sports,5,77,1538,Electronics,488,6,True,high_activity,0,1.05
+#989,53,Male,Rural,81049,Food,8,190,4264,Books,131,25,True,medium,1,0.5333333333333333
+#990,30,Female,Rural,82493,Technology,6,42,3643,Apparel,579,24,False,medium,1,0.6666666666666666
+#991,60,Male,Rural,56027,Food,9,80,3275,Apparel,455,25,False,churn_risk,3,0.36
+#992,20,Male,Rural,113547,Technology,9,65,1881,Home & Kitchen,163,16,False,churn_risk,3,0.32142857142857145
+#993,50,Male,Urban,62849,Sports,8,114,2363,Apparel,15,16,False,churn_risk,3,0.27586206896551724
+#994,23,Male,Suburban,120127,Sports,3,110,2069,Apparel,232,6,False,high_activity,0,1.05
+#995,27,Female,Rural,37858,Travel,1,60,311,Apparel,195,37,False,medium,1,0.09090909090909091
+#996,22,Male,Urban,104162,Technology,7,83,607,Apparel,542,21,False,low,2,0.3684210526315789
+#997,40,Male,Urban,99003,Travel,3,180,431,Apparel,359,4,True,medium,1,0.17647058823529413
+#998,27,Female,Urban,72395,Technology,8,130,650,Books,331,34,False,medium,1,0.8888888888888888
+#999,61,Male,Rural,59758,Travel,3,152,1041,Electronics,427,28,True,high_activity,0,1.05
+#1000,19,Male,Rural,74312,Sports,7,175,827,Health & Beauty,497,38,True,medium,1,0.5384615384615384
